@@ -1,0 +1,16 @@
+4 Trains
+
+Key:
+T = Triplet (Motor[A] - Trailer[S] - Motor[B])
+
+3 Cars:
+T
+
+6 Cars:
+T - T
+
+9 Cars:
+T - T - T
+
+12 Cars:
+T - T - T - T

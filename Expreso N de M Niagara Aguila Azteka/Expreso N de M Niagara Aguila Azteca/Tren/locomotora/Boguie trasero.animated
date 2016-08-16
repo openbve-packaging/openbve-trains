@@ -1,0 +1,10 @@
+[include]
+boguie trasero.csv
+
+[include]
+Position = 0, 0.44, 0.89
+rueda 1.csv
+
+[include]
+Position = 0, 0.44, -0.89
+rueda 1.csv

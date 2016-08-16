@@ -1,0 +1,940 @@
+;Techo Derecho-----------------------------------------------------------
+;Techo derecho extremo---------------------------------------------------
+
+CreateMeshBuilder,
+addVertex, 1,   3.535, -12.1,
+addVertex, 0.8, 3.585, -12.1,
+addVertex, 0.8, 3.585,  12.1,
+addVertex, 1,   3.535,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, 1,    3.535, -12.1,
+addVertex, 1.17, 3.46,  -12.1,
+addVertex, 1.17, 3.46,   12.1,
+addVertex, 1,    3.535,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, 1.17, 3.46, -12.1,
+addVertex, 1.25, 3.41, -12.1,
+addVertex, 1.25, 3.41,  12.1,
+addVertex, 1.17, 3.46,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, 1.25, 3.41, -12.1,
+addVertex, 1.33, 3.34, -12.1,
+addVertex, 1.33, 3.34,  12.1,
+addVertex, 1.25, 3.41,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, 1.33,  3.34, -12.1,
+addVertex, 1.375, 3.29, -12.1,
+addVertex, 1.375, 3.29,  12.1,
+addVertex, 1.33,  3.34,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, 1.375, 3.29, -12.1,
+addVertex, 1.435, 3.16, -12.1,
+addVertex, 1.435, 3.16,  12.1,
+addVertex, 1.375, 3.29,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, 1.435, 3.16, -12.1,
+addVertex, 1.45,  3.07, -12.1,
+addVertex, 1.45,  3.07,  12.1,
+addVertex, 1.435, 3.16,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, 1.45, 3.575, 12.1,
+AddVertex, 0.85, 3.575, 12.1,
+AddVertex, 0.85, 3.34,  12.24,
+AddVertex, 1.45, 3.21,  12.1,
+AddFace2, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techito.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor, 0,0,255,
+
+CreateMeshBuilder,
+AddVertex, 1.45, 3.575, -12.1,
+AddVertex, 0.85, 3.575, -12.1,
+AddVertex, 0.85, 3.34,  -12.24,
+AddVertex, 1.45, 3.21,  -12.1,
+AddFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techito.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor, 0,0,255,
+
+;Techo derecho cnetral----------------------------------------------------
+
+CreateMeshBuilder,
+Addvertex, 0.6,  3.965, -11.45
+Addvertex, 0.85, 3.915, -11.45
+Addvertex, 0.85, 3.915,  11.45
+Addvertex, 0.6,  3.965,  11.45
+Addface, 3,2,1,0
+GenerateNormals
+LoadTexture, Techo.bmp
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.425, 12.3,
+AddVertex, 0.85, 3.425, 12.24,
+AddVertex, 0.85, 3.45,  12.24,
+AddVertex, 0.6,  3.45,  12.3,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.45, 12.3,
+AddVertex, 0.85, 3.45, 12.24,
+AddVertex, 0.85, 3.5,  12.22,
+AddVertex, 0.6,  3.5,  12.28,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.5,  12.28,
+AddVertex, 0.85, 3.5,  12.22,
+AddVertex, 0.85, 3.55, 12.2,
+AddVertex, 0.6,  3.55, 12.26,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.55, 12.26,
+AddVertex, 0.85, 3.55, 12.2,
+AddVertex, 0.85, 3.65, 12.145,
+AddVertex, 0.6,  3.65, 12.21,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.65, 12.21,
+AddVertex, 0.85, 3.65, 12.145,
+AddVertex, 0.85, 3.75, 12.06,
+AddVertex, 0.6,  3.75, 12.14,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.75, 12.14,
+AddVertex, 0.85, 3.75, 12.06,
+AddVertex, 0.85, 3.83, 11.96,
+AddVertex, 0.6,  3.83, 12.07,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.83, 12.07,
+AddVertex, 0.85, 3.83, 11.96,
+AddVertex, 0.85, 3.84, 11.93,
+AddVertex, 0.6,  3.9,  11.95,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.94, 11.83,
+AddVertex, 0.85, 3.88, 11.8,
+AddVertex, 0.85, 3.84, 11.93,
+AddVertex, 0.6,  3.9,  11.95,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.96, 11.7,
+AddVertex, 0.85, 3.9,  11.7,
+AddVertex, 0.85, 3.88, 11.8,
+AddVertex, 0.6,  3.94, 11.83,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.96,  11.7,
+AddVertex, 0.85, 3.9,   11.7,
+AddVertex, 0.85, 3.915, 11.45,
+AddVertex, 0.6,  3.965, 11.45,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.425, -12.3,
+AddVertex, 0.85, 3.425, -12.24,
+AddVertex, 0.85, 3.45,  -12.24,
+AddVertex, 0.6,  3.45,  -12.3,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.45, -12.3,
+AddVertex, 0.85, 3.45, -12.24,
+AddVertex, 0.85, 3.5,  -12.22,
+AddVertex, 0.6,  3.5,  -12.28,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.5,  -12.28,
+AddVertex, 0.85, 3.5,  -12.22,
+AddVertex, 0.85, 3.55, -12.2,
+AddVertex, 0.6,  3.55, -12.26,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.55, -12.26,
+AddVertex, 0.85, 3.55, -12.2,
+AddVertex, 0.85, 3.65, -12.145,
+AddVertex, 0.6,  3.65, -12.21,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.65, -12.21,
+AddVertex, 0.85, 3.65, -12.145,
+AddVertex, 0.85, 3.75, -12.06,
+AddVertex, 0.6,  3.75, -12.14,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.75, -12.14,
+AddVertex, 0.85, 3.75, -12.06,
+AddVertex, 0.85, 3.83, -11.96,
+AddVertex, 0.6,  3.83, -12.07,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.83, -12.07,
+AddVertex, 0.85, 3.83, -11.96,
+AddVertex, 0.85, 3.84, -11.93,
+AddVertex, 0.6,  3.9,  -11.95,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.94, -11.83,
+AddVertex, 0.85, 3.88, -11.8,
+AddVertex, 0.85, 3.84, -11.93,
+AddVertex, 0.6,  3.9,  -11.95,
+AddFace,  0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.96, -11.7,
+AddVertex, 0.85, 3.9,  -11.7,
+AddVertex, 0.85, 3.88, -11.8,
+AddVertex, 0.6,  3.94, -11.83,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6,  3.96,  -11.7,
+AddVertex, 0.85, 3.9,   -11.7,
+AddVertex, 0.85, 3.915, -11.45,
+AddVertex, 0.6,  3.965, -11.45,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+Addvertex, 0.85,  3.92, -12.25
+Addvertex, 0.85, 3.92, 12.25
+Addvertex, 0.85, 3.4,  12.25
+Addvertex, 0.85,  3.4, -12.25
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, Techo lateral.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.425, 12.3,
+AddVertex, 0,   3.425, 12.3,
+AddVertex, 0,   3.45,  12.3,
+AddVertex, 0.6, 3.45,  12.3,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.45, 12.3,
+AddVertex, 0,   3.45, 12.3,
+AddVertex, 0,   3.55, 12.26,
+AddVertex, 0.6, 3.55, 12.26,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.55, 12.26,
+AddVertex, 0,   3.55, 12.26,
+AddVertex, 0,   3.65, 12.21,
+AddVertex, 0.6, 3.65, 12.21,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.65, 12.21,
+AddVertex, 0,   3.65, 12.21,
+AddVertex, 0,   3.75, 12.15,
+AddVertex, 0.6, 3.75, 12.14,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.75, 12.14,
+AddVertex, 0,   3.75, 12.15,
+AddVertex, 0,   3.83, 12.08,
+AddVertex, 0.6, 3.83, 12.07,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.83,  12.07,
+AddVertex, 0,   3.83,  12.08,
+AddVertex, 0,   3.915, 11.96,
+AddVertex, 0.6, 3.9,   11.95,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.9,   11.95,
+AddVertex, 0,   3.915, 11.96,
+AddVertex, 0,   3.965, 11.84,
+AddVertex, 0.6, 3.937, 11.84,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.937, 11.84,
+AddVertex, 0,   3.965, 11.84,
+AddVertex, 0,   3.99,  11.7,
+AddVertex, 0.6, 3.96,  11.7,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.96, 11.7,
+AddVertex, 0,   3.99, 11.7,
+AddVertex, 0,   4,    11.45,
+AddVertex, 0.6, 3.97, 11.45,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+Addvertex, 0.6, 3.97, -11.45
+Addvertex, 0,   4,    -11.45
+Addvertex, 0,   4,     11.45
+Addvertex, 0.6, 3.97,  11.45
+Addface, 0,1,2,3
+GenerateNormals
+LoadTexture, Techo.bmp
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.425, -12.3,
+AddVertex, 0,   3.425, -12.3,
+AddVertex, 0,   3.45,  -12.3,
+AddVertex, 0.6, 3.45,  -12.3,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.45, -12.3,
+AddVertex, 0,   3.45, -12.3,
+AddVertex, 0,   3.55, -12.26,
+AddVertex, 0.6, 3.55, -12.26,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.55, -12.26,
+AddVertex, 0,   3.55, -12.26,
+AddVertex, 0,   3.65, -12.21,
+AddVertex, 0.6, 3.65, -12.21,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.65, -12.21,
+AddVertex, 0,   3.65, -12.21,
+AddVertex, 0,   3.75, -12.15,
+AddVertex, 0.6, 3.75, -12.14,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.75, -12.14,
+AddVertex, 0,   3.75, -12.15,
+AddVertex, 0,   3.83, -12.08,
+AddVertex, 0.6, 3.83, -12.07,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.83,  -12.07,
+AddVertex, 0,   3.83,  -12.08,
+AddVertex, 0,   3.915, -11.96,
+AddVertex, 0.6, 3.9,   -11.95,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.9,   -11.95,
+AddVertex, 0,   3.915, -11.96,
+AddVertex, 0,   3.965, -11.84,
+AddVertex, 0.6, 3.937, -11.84,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.937, -11.84,
+AddVertex, 0,   3.965, -11.84,
+AddVertex, 0,   3.99,  -11.7,
+AddVertex, 0.6, 3.96,  -11.7,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 3.96, -11.7,
+AddVertex, 0,   3.99, -11.7,
+AddVertex, 0,   4,    -11.45,
+AddVertex, 0.6, 3.97, -11.45,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+;Techo Izquierdo----------------------------------------------------------
+;Techo izquierdo extremo--------------------------------------------------
+
+CreateMeshBuilder,
+addVertex, -1,   3.535, -12.1,
+addVertex, -0.8, 3.585, -12.1,
+addVertex, -0.8, 3.585,  12.1,
+addVertex, -1,   3.535,  12.1,
+addFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, -1,    3.535, -12.1,
+addVertex, -1.17, 3.46,  -12.1,
+addVertex, -1.17, 3.46,   12.1,
+addVertex, -1,    3.535,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, -1.17, 3.46, -12.1,
+addVertex, -1.25, 3.41, -12.1,
+addVertex, -1.25, 3.41,  12.1,
+addVertex, -1.17, 3.46,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, -1.25, 3.41, -12.1,
+addVertex, -1.33, 3.34, -12.1,
+addVertex, -1.33, 3.34,  12.1,
+addVertex, -1.25, 3.41,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, -1.33,  3.34, -12.1,
+addVertex, -1.375, 3.29, -12.1,
+addVertex, -1.375, 3.29,  12.1,
+addVertex, -1.33,  3.34,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, -1.375, 3.29, -12.1,
+addVertex, -1.435, 3.16, -12.1,
+addVertex, -1.435, 3.16,  12.1,
+addVertex, -1.375, 3.29,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+addVertex, -1.435, 3.16, -12.1,
+addVertex, -1.45,  3.07, -12.1,
+addVertex, -1.45,  3.07,  12.1,
+addVertex, -1.435, 3.16,  12.1,
+addFace, 0,1,2,3
+GenerateNormals,
+LoadTexture,Techo extremo.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.45, 3.575, 12.1,
+AddVertex, -0.85, 3.575, 12.1,
+AddVertex, -0.85, 3.34,  12.24,
+AddVertex, -1.45, 3.21,  12.1,
+AddFace, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techito.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor, 0,0,255,
+
+CreateMeshBuilder,
+AddVertex, -1.45, 3.575, -12.1,
+AddVertex, -0.85, 3.575, -12.1,
+AddVertex, -0.85, 3.34,  -12.24,
+AddVertex, -1.45, 3.21,  -12.1,
+AddFace2, 3,2,1,0
+GenerateNormals,
+LoadTexture,Techito.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor, 0,0,255,
+
+;Techo izquierdo central--------------------------------------------------
+
+CreateMeshBuilder,
+Addvertex, -0.85,  3.92, -12.25
+Addvertex, -0.85, 3.92, 12.25
+Addvertex, -0.85, 3.4,  12.25
+Addvertex, -0.85,  3.4, -12.25
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, Techo lateral.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.425, 12.3,
+AddVertex, -0.85, 3.425, 12.24,
+AddVertex, -0.85, 3.45,  12.24,
+AddVertex, -0.6,  3.45,  12.3,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.45, 12.3,
+AddVertex, -0.85, 3.45, 12.24,
+AddVertex, -0.85, 3.5,  12.22,
+AddVertex, -0.6,  3.5,  12.28,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.5,  12.28,
+AddVertex, -0.85, 3.5,  12.22,
+AddVertex, -0.85, 3.55, 12.2,
+AddVertex, -0.6,  3.55, 12.26,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.55, 12.26,
+AddVertex, -0.85, 3.55, 12.2,
+AddVertex, -0.85, 3.65, 12.145,
+AddVertex, -0.6,  3.65, 12.21,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.65, 12.21,
+AddVertex, -0.85, 3.65, 12.145,
+AddVertex, -0.85, 3.75, 12.06,
+AddVertex, -0.6,  3.75, 12.14,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.75, 12.14,
+AddVertex, -0.85, 3.75, 12.06,
+AddVertex, -0.85, 3.83, 11.96,
+AddVertex, -0.6,  3.83, 12.07,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.83, 12.07,
+AddVertex, -0.85, 3.83, 11.96,
+AddVertex, -0.85, 3.84, 11.93,
+AddVertex, -0.6,  3.9,  11.95,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.94, 11.83,
+AddVertex, -0.85, 3.88, 11.8,
+AddVertex, -0.85, 3.84, 11.93,
+AddVertex, -0.6,  3.9,  11.95,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.96, 11.7,
+AddVertex, -0.85, 3.9,  11.7,
+AddVertex, -0.85, 3.88, 11.8,
+AddVertex, -0.6,  3.94, 11.83,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.96,  11.7,
+AddVertex, -0.85, 3.9,   11.7,
+AddVertex, -0.85, 3.915, 11.45,
+AddVertex, -0.6,  3.965, 11.45,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+Addvertex, -0.6,  3.965, -11.45
+Addvertex, -0.85, 3.915, -11.45
+Addvertex, -0.85, 3.915,  11.45
+Addvertex, -0.6,  3.965,  11.45
+Addface, 0,1,2,3
+GenerateNormals
+LoadTexture, Techo.bmp
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.425, -12.3,
+AddVertex, -0.85, 3.425, -12.24,
+AddVertex, -0.85, 3.45,  -12.24,
+AddVertex, -0.6,  3.45,  -12.3,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.45, -12.3,
+AddVertex, -0.85, 3.45, -12.24,
+AddVertex, -0.85, 3.5,  -12.22,
+AddVertex, -0.6,  3.5,  -12.28,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.5,  -12.28,
+AddVertex, -0.85, 3.5,  -12.22,
+AddVertex, -0.85, 3.55, -12.2,
+AddVertex, -0.6,  3.55, -12.26,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.55, -12.26,
+AddVertex, -0.85, 3.55, -12.2,
+AddVertex, -0.85, 3.65, -12.145,
+AddVertex, -0.6,  3.65, -12.21,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.65, -12.21,
+AddVertex, -0.85, 3.65, -12.145,
+AddVertex, -0.85, 3.75, -12.06,
+AddVertex, -0.6,  3.75, -12.14,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.75, -12.14,
+AddVertex, -0.85, 3.75, -12.06,
+AddVertex, -0.85, 3.83, -11.96,
+AddVertex, -0.6,  3.83, -12.07,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.83, -12.07,
+AddVertex, -0.85, 3.83, -11.96,
+AddVertex, -0.85, 3.84, -11.93,
+AddVertex, -0.6,  3.9,  -11.95,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.94, -11.83,
+AddVertex, -0.85, 3.88, -11.8,
+AddVertex, -0.85, 3.84, -11.93,
+AddVertex, -0.6,  3.9,  -11.95,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.96, -11.7,
+AddVertex, -0.85, 3.9,  -11.7,
+AddVertex, -0.85, 3.88, -11.8,
+AddVertex, -0.6,  3.94, -11.83,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6,  3.96,  -11.7,
+AddVertex, -0.85, 3.9,   -11.7,
+AddVertex, -0.85, 3.915, -11.45,
+AddVertex, -0.6,  3.965, -11.45,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.425, 12.3,
+AddVertex, -0,   3.425, 12.3,
+AddVertex, -0,   3.45,  12.3,
+AddVertex, -0.6, 3.45,  12.3,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.45, 12.3,
+AddVertex, -0,   3.45, 12.3,
+AddVertex, -0,   3.55, 12.26,
+AddVertex, -0.6, 3.55, 12.26,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.55, 12.26,
+AddVertex, -0,   3.55, 12.26,
+AddVertex, -0,   3.65, 12.21,
+AddVertex, -0.6, 3.65, 12.21,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.65, 12.21,
+AddVertex, -0,   3.65, 12.21,
+AddVertex, -0,   3.75, 12.15,
+AddVertex, -0.6, 3.75, 12.14,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.75, 12.14,
+AddVertex, -0,   3.75, 12.15,
+AddVertex, -0,   3.83, 12.08,
+AddVertex, -0.6, 3.83, 12.07,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.83,  12.07,
+AddVertex, -0,   3.83,  12.08,
+AddVertex, -0,   3.915, 11.96,
+AddVertex, -0.6, 3.9,   11.95,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.9,   11.95,
+AddVertex, -0,   3.915, 11.96,
+AddVertex, -0,   3.965, 11.84,
+AddVertex, -0.6, 3.937, 11.84,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.937, 11.84,
+AddVertex, -0,   3.965, 11.84,
+AddVertex, -0,   3.99,  11.7,
+AddVertex, -0.6, 3.96,  11.7,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.96, 11.7,
+AddVertex, -0,   3.99, 11.7,
+AddVertex, -0,   4,    11.45,
+AddVertex, -0.6, 3.97, 11.45,
+AddFace, 0,1,2,3
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+Addvertex, -0.6, 3.97, -11.45
+Addvertex, -0,   4,    -11.45
+Addvertex, -0,   4,     11.45
+Addvertex, -0.6, 3.97,  11.45
+Addface, 3,2,1,0
+GenerateNormals
+LoadTexture, Techo.bmp
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.425, -12.3,
+AddVertex, -0,   3.425, -12.3,
+AddVertex, -0,   3.45,  -12.3,
+AddVertex, -0.6, 3.45,  -12.3,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.45, -12.3,
+AddVertex, -0,   3.45, -12.3,
+AddVertex, -0,   3.55, -12.26,
+AddVertex, -0.6, 3.55, -12.26,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.55, -12.26,
+AddVertex, -0,   3.55, -12.26,
+AddVertex, -0,   3.65, -12.21,
+AddVertex, -0.6, 3.65, -12.21,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.65, -12.21,
+AddVertex, -0,   3.65, -12.21,
+AddVertex, -0,   3.75, -12.15,
+AddVertex, -0.6, 3.75, -12.14,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.75, -12.14,
+AddVertex, -0,   3.75, -12.15,
+AddVertex, -0,   3.83, -12.08,
+AddVertex, -0.6, 3.83, -12.07,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.83,  -12.07,
+AddVertex, -0,   3.83,  -12.08,
+AddVertex, -0,   3.915, -11.96,
+AddVertex, -0.6, 3.9,   -11.95,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.9,   -11.95,
+AddVertex, -0,   3.915, -11.96,
+AddVertex, -0,   3.965, -11.84,
+AddVertex, -0.6, 3.937, -11.84,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.937, -11.84,
+AddVertex, -0,   3.965, -11.84,
+AddVertex, -0,   3.99,  -11.7,
+AddVertex, -0.6, 3.96,  -11.7,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 3.96, -11.7,
+AddVertex, -0,   3.99, -11.7,
+AddVertex, -0,   4,    -11.45,
+AddVertex, -0.6, 3.97, -11.45,
+AddFace, 3,2,1,0
+SetColor, 63,63,63,

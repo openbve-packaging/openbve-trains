@@ -1,0 +1,57 @@
+37 Trains
+
+Key:
+M = Married Pair (Motor[A] - Motor[B])
+T = Triplet (Motor[A] - Trailer[S] - Motor[B])
+
+5 Cars:
+(a) T - M
+(b) M - T
+
+7 Cars: 
+(a) T - M - M
+(b) M - T - M
+(b) M - M - T
+
+8 Cars:
+(a) T - T - M
+(b) T - M - T
+(c) M - T - T
+
+9 Cars:
+(a) T - M - M - M
+(b) M - T - M - M
+(c) M - M - T - M
+(d) M - M - M - T
+
+10 Cars:
+(a) T - T - M - M
+(b) T - M - T - M
+(c) T - M - M - T
+(d) M - T - M - T
+(e) M - M - T - T
+(f) M - T - T - M
+
+11 Cars:
+(1-a) T - M - M - M - M
+(1-b) M - T - M - M - M
+(1-c) M - M - T - M - M
+(1-d) M - M - M - T - M
+(1-e) M - M - M - M - T
+
+(3-a) T - T - T - M
+(3-b) T - T - M - T
+(3-c) T - M - T - T
+(3-d) M - T - T - T
+
+12 Cars:
+(a) T - T - M - M - M
+(b) T - M - T - M - M
+(c) T - M - M - T - M
+(d) T - M - M - M - T
+(e) M - T - M - M - T
+(f) M - M - T - M - T
+(g) M - M - M - T - T
+(h) M - T - T - M - M
+(i) M - T - M - T - M
+(j) M - M - T - T - M

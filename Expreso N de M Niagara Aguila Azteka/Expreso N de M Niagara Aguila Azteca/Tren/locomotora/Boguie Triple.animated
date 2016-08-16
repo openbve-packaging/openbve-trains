@@ -1,0 +1,18 @@
+[object]
+Position = 0, -0.1, 0
+States=bogie triple.b3d
+
+[object]
+Position = 0, 0.44, 1.67
+States=rueda 1.csv
+RotateXFunction = value + delta * speedometer / 0.5
+
+[object]
+Position = 0, 0.44, 0
+States=rueda 1.csv
+RotateXFunction = value + delta * speedometer / 0.5
+
+[object]
+Position = 0, 0.44, -1.67
+States=rueda 1.csv
+RotateXFunction = value + delta * speedometer / 0.5

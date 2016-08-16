@@ -1,0 +1,239 @@
+[Include]
+b.csv
+
+[Include]
+bINTERIOR.csv
+
+[Include]
+minicabina.csv
+
+[Include]
+Lead Truck.animated
+position = 0,0,9.068
+[Include]
+Trail Truck.animated
+position = 0,0,-9.068
+
+[Object]
+states = puertaL1.csv
+translateZfunction = -1.45 * rightdoors 
+position = 0,0,0
+
+[Object]
+states = puertaL1.csv
+translateZfunction = 1.45 * rightdoors 
+position = 0,0,13.39
+
+[Object]
+states = puertaR1.csv
+translateZfunction = -1.45 * leftdoors
+position = 0,0,0
+
+[Object]
+states = puertaR1.csv
+translateZfunction = 1.45 * leftdoors
+
+position = 0,0,13.39
+
+;;LIGHTS;;
+;;LIGHTS;;
+[Include]
+Luces/Lampara2.animated
+position = 1.12,1.355,12.57
+[Include]
+Luces/Lampara2.animated
+position = -1.12,1.355,12.57
+
+;;
+[Include]
+Luces/Lampara2.animated
+position = 0,3.67,12.7
+[Include]
+Luces/Lampara2.animated
+position = 0,3.96,12.7
+
+[Include]
+Luces/LamparaRoja2.animated
+position = -1.1,1.83,12.59
+[Include]
+Luces/LamparaRoja2.animated
+position = 1.1,1.83,12.59
+
+;;asientos;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-12.3
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.945,0,-12.3
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-11.3
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.945,0,-11.3
+;;;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-10.3
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,-10.3
+;;;;
+[Object]
+states = asiento21802.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-9.15
+[Object]
+states = asiento31802.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,-9.15
+
+;;;;;;;;;;;;intermedio;;;;;;;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-5.9
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-4.9
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-4
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,-3.6
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-3.1
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-2.2
+[Object]
+states = asiento3180.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,-2.2
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-1.3
+[Object]
+states = asiento3180.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,-1.3
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,-0.4
+[Object]
+states = asiento3180.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,-0.4
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,0.2
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,0.2
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,0.95
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,0.95
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,1.8
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,1.8
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,2.65
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,2.65
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,3.5
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,3.5
+;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,4.35
+[Object]
+states = asiento3.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,4.35
+;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,5.3
+[Object]
+states = asiento3180.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.74,0,5.3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;; CAB;;;;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.8,0,7.6
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.8,0,7.6
+;;;
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.8,0,8.6
+[Object]
+states = asiento2.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.8,0,8.6
+;;;
+[Object]
+states = asiento2180.csv,null.csv
+statefunction = cameraDistance > 30
+position = 0.945,0,9.6
+[Object]
+states = asiento3180.csv,null.csv
+statefunction = cameraDistance > 30
+position = -0.8,0,9.6

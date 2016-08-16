@@ -1,0 +1,200 @@
+[object]
+States=vagon.csv
+
+;Asientos del Modulito
+
+[object]
+Position = 1.12, 1.2, -0.75
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -0.75
+States=asiento.b3d
+[object]
+Position = 1.62, 1.2, -0.2
+States=asiento 1.b3d
+[object]
+Position = 1.25, 1.2, -0.2
+States=asiento 1.b3d
+
+[object]
+Position = 1.12, 1.2, -2.4
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -2.4
+States=asiento.b3d
+[object]
+Position = 1.62, 1.2, -1.8
+States=asiento 1.b3d
+[object]
+Position = 1.25, 1.2, -1.8
+States=asiento 1.b3d
+
+[object]
+Position = 1.12, 1.2, -4.05
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -4.05
+States=asiento.b3d
+[object]
+Position = 1.62, 1.2, -3.45
+States=asiento 1.b3d
+[object]
+Position = 1.25, 1.2, -3.45
+States=asiento 1.b3d
+
+[object]
+Position = 1.12, 1.2, -5.67
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -5.67
+States=asiento.b3d
+[object]
+Position = 1.62, 1.2, -5.1
+States=asiento 1.b3d
+[object]
+Position = 1.25, 1.2, -5.1
+States=asiento 1.b3d
+
+[object]
+Position = 1.12, 1.2, -7.25
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -7.25
+States=asiento.b3d
+[object]
+Position = 1.62, 1.2, -6.7
+States=asiento 1.b3d
+[object]
+Position = 1.25, 1.2, -6.7
+States=asiento 1.b3d
+
+[object]
+Position = 1.12, 1.2, -8.87
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -8.87
+States=asiento.b3d
+[object]
+Position = 1.62, 1.2, -8.3
+States=asiento 1.b3d
+[object]
+Position = 1.25, 1.2, -8.3
+States=asiento 1.b3d
+
+;Asientos Izquierdos
+
+[object]
+Position = -1.12, 1.2, -0.75
+States=asiento.b3d
+[object]
+Position = -0.75, 1.2, -0.75
+States=asiento.b3d
+[object]
+Position = -0.62, 1.2, -0.2
+States=asiento 1.b3d
+[object]
+Position = -0.25, 1.2, -0.2
+States=asiento 1.b3d
+
+[object]
+Position = -1.12, 1.2, -2.4
+States=asiento.b3d
+[object]
+Position = -0.75, 1.2, -2.4
+States=asiento.b3d
+[object]
+Position = -0.62, 1.2, -1.8
+States=asiento 1.b3d
+[object]
+Position = -0.25, 1.2, -1.8
+States=asiento 1.b3d
+
+[object]
+Position = -1.12, 1.2, -4.05
+States=asiento.b3d
+[object]
+Position = -0.75, 1.2, -4.05
+States=asiento.b3d
+[object]
+Position = -0.62, 1.2, -3.45
+States=asiento 1.b3d
+[object]
+Position = -0.25, 1.2, -3.45
+States=asiento 1.b3d
+
+[object]
+Position = -1.12, 1.2, -5.67
+States=asiento.b3d
+[object]
+Position = -0.75, 1.2, -5.67
+States=asiento.b3d
+[object]
+Position = -0.62, 1.2, -5.1
+States=asiento 1.b3d
+[object]
+Position = -0.25, 1.2, -5.1
+States=asiento 1.b3d
+
+[object]
+Position = -1.12, 1.2, -7.25
+States=asiento.b3d
+[object]
+Position = -0.75, 1.2, -7.25
+States=asiento.b3d
+[object]
+Position = -0.62, 1.2, -6.7
+States=asiento 1.b3d
+[object]
+Position = -0.25, 1.2, -6.7
+States=asiento 1.b3d
+
+[object]
+Position = -1.12, 1.2, -8.87
+States=asiento.b3d
+[object]
+Position = -0.75, 1.2, -8.87
+States=asiento.b3d
+[object]
+Position = -0.62, 1.2, -8.3
+States=asiento 1.b3d
+[object]
+Position = -0.25, 1.2, -8.3
+States=asiento 1.b3d
+
+;Mesas
+[object]
+Position = 0.89, 1.2, -0.45
+States=mesa.b3d
+[object]
+Position = 0.89, 1.2, -2.08
+States=mesa.b3d
+[object]
+Position = 0.89, 1.2, -3.72
+States=mesa.b3d
+[object]
+Position = 0.89, 1.2, -5.35
+States=mesa.b3d
+[object]
+Position = 0.89, 1.2, -6.95
+States=mesa.b3d
+[object]
+Position = 0.89, 1.2, -8.55
+States=mesa.b3d
+[object]
+Position = -0.89, 1.2, -0.45
+States=mesa.b3d
+[object]
+Position = -0.89, 1.2, -2.08
+States=mesa.b3d
+[object]
+Position = -0.89, 1.2, -3.72
+States=mesa.b3d
+[object]
+Position = -0.89, 1.2, -5.35
+States=mesa.b3d
+[object]
+Position = -0.89, 1.2, -6.95
+States=mesa.b3d
+[object]
+Position = -0.89, 1.2, -8.55
+States=mesa.b3d

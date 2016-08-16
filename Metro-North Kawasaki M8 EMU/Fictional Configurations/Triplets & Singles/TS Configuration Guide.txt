@@ -1,0 +1,11 @@
+2 Trains
+
+Key:
+S = Single (Trailer[S])
+T = Triplet (Motor[A] - Trailer[S] - Motor[B])
+
+7 Cars:
+T - S - T
+
+11 Cars:
+T - S - T - S - T

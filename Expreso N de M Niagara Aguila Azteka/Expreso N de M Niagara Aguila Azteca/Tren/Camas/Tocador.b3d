@@ -1,0 +1,71 @@
+[MeshBuilder]
+Vertex 0.4, 0.45, -0.99
+Vertex 0,   0.45, -0.99
+Vertex 0,   0.45, -0.5
+Vertex 0.4, 0.45, -0.5
+Face2 0,1,2,3
+[texture]
+load barra.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0.4, 0.4, -0.99
+Vertex 0,   0.4, -0.99
+Vertex 0,   0.4, -0.5
+Vertex 0.4, 0.4, -0.5
+Face2 0,1,2,3
+[texture]
+load barra.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0.4, -0.2,  -0.5
+vertex 0.4, 0.45, -0.5
+vertex 0,   0.45, -0.5
+vertex 0,   -0.2,  -0.5
+Face2 0,1,2,3
+[texture]
+load Lateral de mesa.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0.4, -0.2,  -0.99
+vertex 0.4, 0.45, -0.99
+vertex 0,   0.45, -0.99
+vertex 0,   -0.2,  -0.99
+Face2 0,1,2,3
+[texture]
+load Lateral de mesa.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0.4, -0.2,  -0.5
+vertex 0.4, 0.45, -0.5
+vertex 0.4, 0.45, -0.99
+vertex 0.4, -0.2,  -0.99
+Face2 0,1,2,3
+[texture]
+load Lateral de mesa.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+Translateall -0.2,0,0.75

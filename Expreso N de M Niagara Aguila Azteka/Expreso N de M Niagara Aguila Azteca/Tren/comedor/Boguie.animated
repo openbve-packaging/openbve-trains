@@ -1,0 +1,20 @@
+;BogieTruck,1934 AAR~Passenger~GeneralSteel~2axle Design,RollerBearings,SteelWheels
+;Gaug=4.708f 1.435m,Diam=3.000f 0.914m,Base=8.500f 2.591m,Cpty/Axle=030.0uT 027.2mT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=FrmC.b3d                              ;Fram_Cntr
+Position=+0.000,+0.457,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+[OBJECT]
+States=FrmL.b3d                              ;Fram_Left
+Position=+0.000,+0.457,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+[OBJECT]
+States=FrmR.b3d                              ;Fram_Rght
+Position=+0.000,+0.457,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+[OBJECT]
+States=Whel.b3d                              ;Whel_EndA
+Position=+0.000,+0.457,+1.295                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.457)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+[OBJECT]
+States=Whel.b3d                              ;Whel_EndB
+Position=+0.000,+0.457,-1.295                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=-0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.457)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))

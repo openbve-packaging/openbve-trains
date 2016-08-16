@@ -1,0 +1,94 @@
+[MeshBuilder]
+Vertex  1.4 ,  1.35 ,  4.65 
+Vertex  0.45 ,  1.35 ,  4.65
+Vertex  0.45 ,  1.35 ,  3.7
+Vertex  1.4 ,  1.35 ,  3.7
+Face  3, 2, 1, 0, 
+[Texture]
+Load mesa.png, mesa.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  1.4 ,  1.3 ,  4.65
+Vertex  0.45 ,  1.3 ,  4.65
+Vertex  0.45 ,  1.3 ,  3.7
+Vertex  1.4 ,  1.3 ,  3.7
+Face  0,1,2,3
+[Texture]
+Load mesa.png, mesa.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  1.4 ,  1.3 ,  3.7
+Vertex  1.4 ,  1.35 ,  3.7
+Vertex  0.45 ,  1.35 ,  3.7
+Vertex  0.45 ,  1.3 ,  3.7
+Face  3, 2, 1, 0, 
+[Texture]
+Load Lateral de mesa.png,Lateral de mesa.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  1.4 ,  1.3 ,  4.65
+Vertex  1.4 ,  1.35 ,  4.65
+Vertex  0.45 ,  1.35 ,  4.65
+Vertex  0.45 ,  1.3 ,  4.65 
+Face  0,1,2,3
+[Texture]
+Load  Lateral de mesa.png, Lateral de mesa.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  0.45 ,  1.3 ,  3.7
+Vertex  0.45 ,  1.35 ,  3.7
+Vertex  0.45 ,  1.35 ,  4.65
+Vertex  0.45 ,  1.3 ,  4.65
+Face  3, 2, 1, 0, 
+[Texture]
+Load Lateral de mesa.png, Lateral de mesa.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  1.4 ,  1.3 ,  3.7
+Vertex  1.4 ,  1.35 ,  3.7
+Vertex  1.4 ,  1.35 ,  4.65
+Vertex  1.4 ,  1.3 ,  4.65
+Face  0, 1, 2, 3, 
+[Texture]
+Load Lateral de mesa.png, Lateral de mesa.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   0,0,255
+
+;---PATA----
+
+[MeshBuilder]
+Cylinder  100,0.05,0.05,0.6
+Rotate  0, 0, 1, 180,
+Rotate  0 ,  0 ,  0 , 0 
+Color  224,116,18
+Translate  0.9,  1 , 4.186
+
+Translateall -0.9, -0.7, -4.2

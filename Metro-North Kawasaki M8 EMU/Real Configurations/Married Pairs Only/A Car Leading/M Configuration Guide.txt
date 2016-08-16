@@ -1,0 +1,22 @@
+6 Trains
+
+Key:
+M = Married Pair (Motor[A] - Motor[B])
+
+2 Cars:
+M
+
+4 Cars:
+M - M
+
+6 Cars:
+M - M - M
+
+8 Cars:
+M - M - M - M
+
+10 Cars:
+M - M - M - M - M
+
+12 Cars:
+M - M - M - M - M - M

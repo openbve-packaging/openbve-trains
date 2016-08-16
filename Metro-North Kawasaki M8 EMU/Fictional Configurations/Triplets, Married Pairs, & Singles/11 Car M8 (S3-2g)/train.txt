@@ -1,0 +1,68 @@
+Metro-North Railroad Kawasaki M8 EMU V1.0 
+(Consist 11.S3-2g; Triplet - Single - Pair - Pair - Triplet)
+
+This train is highly detailed and advanced. Keep reading for full details.
+
+The M8 electric multiple unit was built in the between the 2000s and early 2010s for the Metro-North Commuter Railroad. Seating layout is not 100% accurate as of this release.
+
+In addition, hours of coding were put in to animating the 3D engineer's cab. Note that the cab's train status and diagnostic displays are semi-animated/semi-functional, as is the AC - DC mode selector switch.
+
+Finally, note the placement of the cab doors throughout the consist; the end cars will have their cab doors closed, while the middle cars have them open.
+
+The cab signalling on version 1.0 is not yet functional, but as soon as a route is coded that can make use of the cab signalling system, a plugin will be drafted and this pack will be updated to version 2.0.
+
+Version 2.0 will also include animated destination signage, a detailed lavatory, and updated door sounds and seating layout.
+
+
+Credits list:
+-Sounds: Fan Railer (Mike Kam)[general sound programmer] & William McMorris [high quality announcement chime, buzzer sound, & combined throttle/brake controller "click"]
+-Engineer's Cab (3D): Manuel Alejandro Mejias Palacios
+-Exterior model: Manuel Alejandro Mejias Palacios
+-Physics: Fan Railer (Mike Kam)
+-Project coordinator & BETA tester: Fan Railer (Mike Kam)
+-Invaluable reference material (for physics): Gregory Grice
+-File compression: Max Diamond (Dj Hammers)
+
+IMPORTANT: Please do not redistribute this train pack. This pack is only to be made available via sanctioned sites, ie, BVEstation & Fan Railer's Mediafire page.
+
+Technical information:
+
+Power system:  750 VDC Third Rail ; 12.5 kV 60 Hz AC / 25 kV 60 Hz AC Catenary
+Axles arrangement: Bo'Bo'
+Service weight (empty motor; average): 144,291 lbs
+Service weight (empty trailer; average): 110,230 lbs
+Starting acceleration (MIN PWR; P1): 0.5 mph/s
+Starting acceleration (MAX PWR; P6): 2.0 mph/s
+Continuous acceleration: 2.0 mph/s @ 31.075 mph ; 0.466 mph/s @ 100 mph
+Minimum reduction brake rate (MIN BK; B1): 0.75 mph/s
+Full service brake rate (MAX BK; B4): 3.0 mph/s
+Emergency brake rate (EMER): 3.355 mph/s
+Propulsion system: Mitsubishi Electric - Sojitz (Melco) AC propulsion
+Traction motor rating: 270 hp
+Rated power (per car): 1080 hp
+Service speed: 80 mph
+Maximum design speed: 100 mph
+Gauge: 4 ft 8.5 in
+Length between couplers: 85 ft 0 in
+Vehicle Width: 10 ft 6 in
+Rail to Roof Height: 12 ft 11.5 in to ~ 14 ft
+Distance Between Truck Centers: 59 ft 6 in
+Truck Wheel Base: 8 ft 6 in
+Wheel Diameter (New): 36 in
+
+
+Essential Operating Tips:
+For openBVE purposes, this train has 6 power points, one for each major cab signal limit. Each point will increase acceleration proportionally.
+P1 - 15 mph (24 km/h); 0.5 mph/s
+P2 - 30 mph (32 km/h) 
+P3 - 45 mph (72 km/h)
+P4 - 60 mph (96 km/h)
+P5 - 80 mph (128 km/h); 2.0 mph/s
+P6 - 100 mph (160 km/h); 2.0 mph/s
+
+For openBVE purposes, this train has 4 service brake points, each increasing the brake rate by increments of 0.75 mph/s.
+B1 - B3 are dynamic/regenerative brake only.
+B4 blends in friction brakes to achieve full service brake rate of 3.0 mph/s.
+
+IMPORTANT; How to operate the pantograph (switch between AC-DC and vice versa):
+Hit "3" to turn ATS off and lower pantograph (AC-DC), hit "2" to turn ATS on and raise pantograph (DC-AC). It is recommended that you only make the AC-DC switch while moving. Do not make the DC-AC switch while moving, as activating the ATS from "off state" will immediately apply emergency brakes; thus, only raise the pantograph when the train is stopped. Hopefully, a plugin for V2.0 will remove this requirement.

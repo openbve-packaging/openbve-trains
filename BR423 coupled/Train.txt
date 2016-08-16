@@ -1,0 +1,17 @@
+Deutsche Bahn AG
+DB Regio
+Radsatz: Bo`(2)`Bo`
+Länge über Kupplung 36490 mm
+Dauerleistung 1175 KW
+Gewicht 60,9t
+Zulässige Geschwindigkeit 140 Km/h
+mit LZB 160 Km/h
+Baujahr ab 1999
+Sitzplätze 2 Klasse:88, 1.Klasse: 12
+
+Copyright
+(C) Martin Finken http://BVE-Train.de
+
+
+
+

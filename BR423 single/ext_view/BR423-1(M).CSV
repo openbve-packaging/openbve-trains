@@ -1,0 +1,1183 @@
+;Mirrored with BVE File Converter
+;//ドイツ鉄道　BR423,,,
+;------ボディ------,,,
+CreateMeshBuilder,,;//前面,
+AddVertex,-1 ,  3.4 ,  17.92 ,;
+AddVertex,-0.87 ,  2.675 ,  18.12 ,;
+AddVertex,-0.765 ,  2.05 ,  18.23 ,;
+AddVertex,-0.94 ,  3.15 ,  18.07 ,;
+AddVertex,-0.82 ,  2.4 ,  18.33 ,;
+AddVertex,-0.77 ,  1.9 ,  18.42 ,;
+AddVertex,-0.755 ,  1.72 ,  18.44 ,;
+AddVertex, 1 ,  3.4 ,  17.92 ,;
+AddVertex, 0.87 ,  2.675 ,  18.12 ,;
+AddVertex, 0.765 ,  2.05 ,  18.23 ,;
+AddVertex, 0.94 ,  3.15 ,  18.07 ,;
+AddVertex, 0.82 ,  2.4 ,  18.33 ,;
+AddVertex, 0.77 ,  1.9 ,  18.42 ,
+AddVertex, 0.755 ,  1.72 ,  18.44 ,
+AddVertex,-0.7 ,  1.98 ,  18.24 ,
+AddVertex,-0.68 ,  1.67 ,  18.43 ,
+AddVertex, 0.7 ,  1.98 ,  18.24 ,
+AddVertex, 0.68 ,  1.67 ,  18.43 ,
+AddFace2, 5, 4, 3, 0, 1, 2, 
+AddFace, 2, 5, 6, 
+AddFace2, 12, 11, 10, 7, 8, 9, 
+AddFace, 12, 9, 13, 
+AddFace, 15, 14, 2, 6, 
+AddFace, 13, 9, 16, 17, 
+AddFace, 17, 16, 14, 15, 
+SetColor,130,130,130,,,
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,,,
+
+
+CreateMeshBuilder,,;//前面,
+AddVertex,-0.73 ,  0.75 ,  18.4 ,;
+AddVertex,-0.73 ,  1 ,  18.43 ,;
+AddVertex,-0.73 ,  1.2 ,  18.46 ,;
+AddVertex,-0.73 ,  1.45 ,  18.47 ,;
+AddVertex,-0.755 ,  1.72 ,  18.44 ,;
+AddVertex,-0.68 ,  0.75 ,  18.4 ,;
+AddVertex,-0.68 ,  1 ,  18.43 ,;
+AddVertex,-0.68 ,  1.2 ,  18.46 ,;
+AddVertex,-0.68 ,  1.45 ,  18.46 ,;
+AddVertex,-0.68 ,  1.67 ,  18.43 ,;
+AddVertex, 0.68 ,  0.75 ,  18.4 ,;
+AddVertex, 0.68 ,  1 ,  18.43 ,;
+AddVertex, 0.68 ,  1.2 ,  18.46 ,;
+AddVertex, 0.68 ,  1.45 ,  18.46 ,
+AddVertex, 0.68 ,  1.67 ,  18.43 ,
+AddVertex, 0.73 ,  0.75 ,  18.4 ,
+AddVertex, 0.73 ,  1 ,  18.43 ,
+AddVertex, 0.73 ,  1.2 ,  18.46 ,
+AddVertex, 0.73 ,  1.45 ,  18.47 ,
+AddVertex, 0.755 ,  1.72 ,  18.44 ,
+AddFace, 5, 6, 1, 0, 
+AddFace, 6, 7, 2, 1, 
+AddFace, 7, 8, 3, 2, 
+AddFace, 8, 9, 4, 3, 
+AddFace, 10, 11, 6, 5, 
+AddFace, 11, 12, 7, 6, 
+AddFace, 12, 13, 8, 7, 
+AddFace, 13, 14, 9, 8, 
+AddFace, 15, 16, 11, 10, 
+AddFace, 16, 17, 12, 11, 
+AddFace, 17, 18, 13, 12, 
+AddFace, 18, 19, 14, 13, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,front1.bmp,,,
+SetTextureCoordinates,0,0,0.995,
+SetTextureCoordinates,1,0,0.74,
+SetTextureCoordinates,2,0,0.517,
+SetTextureCoordinates,3,0,0.3,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0.06,0.995,
+SetTextureCoordinates,6,0.06,0.74,
+SetTextureCoordinates,7,0.06,0.517,
+SetTextureCoordinates,8,0.06,0.3,
+SetTextureCoordinates,9,0.06,0,;
+SetTextureCoordinates,10,0.94,0.995;
+SetTextureCoordinates,11,0.94,0.74;
+SetTextureCoordinates,12,0.94,0.517;
+SetTextureCoordinates,13,0.94,0.3;
+SetTextureCoordinates,14,0.94,0;
+SetTextureCoordinates,15,1,0.995;
+SetTextureCoordinates,16,1,0.74;
+SetTextureCoordinates,17,1,0.517;
+SetTextureCoordinates,18,1,0.3;
+SetTextureCoordinates,19,1,0;
+SetDecalTransparentColor,0,0,0;
+
+
+CreateMeshBuilder,,;//前面上部,
+AddVertex,-1 ,  3.4 ,  17.92 ,;
+AddVertex,-1.08 ,  3.62 ,  17.57 ,
+AddVertex,-1.1 ,  3.65 ,  17.4 ,
+AddVertex, 1 ,  3.4 ,  17.92 ,
+AddVertex, 1.08 ,  3.62 ,  17.57 ,
+AddVertex, 1.1 ,  3.65 ,  17.4 ,
+AddFace, 3, 4, 1, 0, 
+AddFace, 4, 5, 2, 1, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,front3.bmp,,,
+SetTextureCoordinates,0,0.03,1,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0.97,1,
+SetTextureCoordinates,4,1,0.05,
+SetTextureCoordinates,5,1,0,;
+
+
+CreateMeshBuilder,,;//前面下部,,,,
+AddVertex,-0.68 ,  0.75 ,  18.4 ,;
+AddVertex,-0.68 ,  1 ,  18.43 ,;
+AddVertex,-0.68 ,  1.2 ,  18.46 ,;
+AddVertex,-0.68 ,  1.4 ,  18.46 ,;
+AddVertex, 0.68 ,  0.75 ,  18.4 ,;
+AddVertex, 0.68 ,  1 ,  18.43 ,;
+AddVertex, 0.68 ,  1.2 ,  18.46 ,;
+AddVertex, 0.68 ,  1.4 ,  18.46 ,;
+AddVertex,-0.5 ,  0.75 ,  18 ,;
+AddVertex,-0.5 ,  1.3 ,  18 ,;
+AddVertex, 0.5 ,  0.75 ,  18 ,;
+AddVertex, 0.5 ,  1.3 ,  18 ,;
+AddFace, 8, 9, 3, 2, 1, 0, 
+AddFace, 5, 6, 7, 11, 10, 4, 
+AddFace, 10, 11, 9, 8, 
+AddFace, 9, 11, 7, 3, 
+SetColor,200,200,200,,,
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,,,
+
+LoadTexture,front4.bmp,,,,,
+SetTextureCoordinates,0,0,0,,,
+SetTextureCoordinates,1,0,0.2,,,
+SetTextureCoordinates,2,0,0.5,,,
+SetTextureCoordinates,3,0,1,,,
+SetTextureCoordinates,4,1,0,,,
+SetTextureCoordinates,5,1,0.2,,,
+SetTextureCoordinates,6,1,0.5,,,
+SetTextureCoordinates,7,1,1,,,;
+SetTextureCoordinates,8,0.4,0,;
+SetTextureCoordinates,9,0.4,1,;
+SetTextureCoordinates,10,0.6,0,;
+SetTextureCoordinates,11,0.6,1,;
+
+
+CreateMeshBuilder,,;//前面窓,,
+AddVertex,-0.75 ,  1.95 ,  18.25 ,;
+AddVertex, 0.75 ,  1.95 ,  18.25 ,;
+AddVertex,-0.87 ,  2.675 ,  18.12 ,;
+AddVertex, 0.87 ,  2.675 ,  18.12 ,;
+AddVertex,-1 ,  3.4 ,  17.92 ,;
+AddVertex, 1 ,  3.4 ,  17.92 ,;
+AddFace, 1, 3, 2, 0, ;
+AddFace, 3, 5, 4, 2, ;
+Translate, 0 ,  0 , -0.36 ,;
+GenerateNormals,,,;
+
+LoadTexture,front-window.bmp,,;
+SetTextureCoordinates,0,0,0.9;
+SetTextureCoordinates,1,1,0.9;
+SetTextureCoordinates,2,0,0.5;
+SetTextureCoordinates,3,1,0.5;
+SetTextureCoordinates,4,0,0;
+SetTextureCoordinates,5,1,0;
+
+
+CreateMeshBuilder,,;//ワイパー,
+AddVertex,-0.05 ,  2.05 ,  18.25 ,;
+AddVertex,-0.05 ,  2.8 ,  18.1 ,;
+AddVertex, 0.85 ,  2.8 ,  18.1 ,;
+AddVertex, 0.85 ,  2.05 ,  18.25 ,;
+AddFace, 3, 2, 1, 0, ;
+Translate, 0 ,  0 , -0.36 ,;
+GenerateNormals,,,,;
+
+LoadTexture,wiper.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//行先表示,,
+AddVertex,-0.9 ,  3.17 ,  18 ,;
+AddVertex,-0.9 ,  3.36 ,  17.93 ,;
+AddVertex, 0.9 ,  3.36 ,  17.93 ,;
+AddVertex, 0.9 ,  3.17 ,  18 ,;
+AddFace, 3, 2, 1, 0, ;
+Translate, 0 ,  0 , -0.36 ,;
+GenerateNormals,,,,;
+
+LoadTexture,ikisaki.bmp,,,;
+SetTextureCoordinates,0,0.1,1,;
+SetTextureCoordinates,1,0.1,0,;
+SetTextureCoordinates,2,0.9,0,;
+SetTextureCoordinates,3,0.9,1,;
+
+
+CreateMeshBuilder,,;//前面DBロゴ,,
+AddVertex,-0.21 ,  1.35 ,  18.465 ,;
+AddVertex,-0.21 ,  1.45 ,  18.465 ,;
+AddVertex,-0.21 ,  1.65 ,  18.44 ,
+AddVertex, 0.21 ,  1.35 ,  18.465 ,
+AddVertex, 0.21 ,  1.45 ,  18.465 ,
+AddVertex, 0.21 ,  1.65 ,  18.44 ,
+AddFace, 3, 4, 1, 0, 
+AddFace, 4, 5, 2, 1, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,DB.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.65,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,1,0.65,
+SetTextureCoordinates,5,1,0,
+
+
+CreateMeshBuilder,,;//前面左,
+AddVertex, 1.32 ,  0.75 ,  18 ,;
+AddVertex, 1.32 ,  1 ,  18.03 ,;
+AddVertex, 1.32 ,  1.2 ,  18.06 ,;
+AddVertex, 1.32 ,  1.45 ,  18.07 ,;
+AddVertex, 1.32 ,  1.9 ,  18.02 ,;
+AddVertex, 1.35 ,  2.4 ,  17.93 ,;
+AddVertex, 1.38 ,  3.02 ,  17.72 ,;
+AddVertex, 1.39 ,  3.1 ,  17.65 ,;
+AddVertex, 1.41 ,  3.15 ,  17.53 ,;
+AddVertex, 1.42 ,  3.15 ,  17.4 ,;
+AddVertex, 1.07 ,  0.75 ,  18.2 ,;
+AddVertex, 1.07 ,  1 ,  18.23 ,;
+AddVertex, 1.07 ,  1.2 ,  18.26 ,;
+AddVertex, 1.07 ,  1.45 ,  18.27 ,
+AddVertex, 1.07 ,  1.9 ,  18.22 ,
+AddVertex, 1.08 ,  2.4 ,  18.13 ,
+AddVertex, 1.18 ,  3.02 ,  17.92 ,
+AddVertex, 1.22 ,  3.25 ,  17.82 ,
+AddVertex, 1.28 ,  3.35 ,  17.63 ,
+AddVertex, 1.33 ,  3.43 ,  17.4 ,
+AddVertex, 0.73 ,  0.75 ,  18.4 ,
+AddVertex, 0.73 ,  1 ,  18.43 ,
+AddVertex, 0.73 ,  1.2 ,  18.46 ,
+AddVertex, 0.73 ,  1.45 ,  18.47 ,
+AddVertex, 0.77 ,  1.9 ,  18.42 ,
+AddVertex, 0.82 ,  2.4 ,  18.33 ,
+AddVertex, 0.94 ,  3.15 ,  18.07 ,
+AddVertex, 1 ,  3.4 ,  17.92 ,
+AddVertex, 1.08 ,  3.62 ,  17.57 ,
+AddVertex, 1.1 ,  3.65 ,  17.4 ,
+AddFace, 1, 11, 10, 0, 
+AddFace, 2, 12, 11, 1, 
+AddFace, 3, 13, 12, 2, 
+AddFace, 4, 14, 13, 3, 
+AddFace, 5, 15, 14, 4, 
+AddFace, 6, 16, 15, 5, 
+AddFace, 7, 17, 16, 6, 
+AddFace, 8, 18, 17, 7, 
+AddFace, 9, 19, 18, 8, 
+AddFace, 11, 21, 20, 10, 
+AddFace, 12, 22, 21, 11, 
+AddFace, 13, 23, 22, 12, 
+AddFace, 14, 24, 23, 13, 
+AddFace, 15, 25, 24, 14, 
+AddFace, 16, 26, 25, 15, 
+AddFace, 17, 27, 26, 16, 
+AddFace, 18, 28, 27, 17, 
+AddFace, 19, 29, 28, 18, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,front1-2.bmp,,,
+SetTextureCoordinates,0,0.005,0.995,
+SetTextureCoordinates,1,0.005,0.903,
+SetTextureCoordinates,2,0.005,0.83,
+SetTextureCoordinates,3,0.005,0.76,
+SetTextureCoordinates,4,0.005,0.58,
+SetTextureCoordinates,5,0.005,0.3,
+SetTextureCoordinates,6,0.005,0.2,
+SetTextureCoordinates,7,0.005,0.1,
+SetTextureCoordinates,8,0.005,0.05,
+SetTextureCoordinates,9,0.005,0.005,
+SetTextureCoordinates,10,0.4,0.995
+SetTextureCoordinates,11,0.4,0.903
+SetTextureCoordinates,12,0.4,0.83
+SetTextureCoordinates,13,0.4,0.76
+SetTextureCoordinates,14,0.4,0.58
+SetTextureCoordinates,15,0.4,0.3
+SetTextureCoordinates,16,0.4,0.2
+SetTextureCoordinates,17,0.4,0.1
+SetTextureCoordinates,18,0.4,0.05
+SetTextureCoordinates,19,0.4,0.005
+SetTextureCoordinates,20,0.99,0.995
+SetTextureCoordinates,21,0.99,0.903
+SetTextureCoordinates,22,0.99,0.83
+SetTextureCoordinates,23,0.99,0.76
+SetTextureCoordinates,24,0.99,0.58
+SetTextureCoordinates,25,0.99,0.3;
+SetTextureCoordinates,26,0.99,0.2;
+SetTextureCoordinates,27,0.99,0.1;
+SetTextureCoordinates,28,0.99,0.05;
+SetTextureCoordinates,29,0.99,0.005;
+
+
+CreateMeshBuilder,,;//前面右,
+AddVertex,-1.32 ,  0.75 ,  18 ,;
+AddVertex,-1.32 ,  1 ,  18.03 ,;
+AddVertex,-1.32 ,  1.2 ,  18.06 ,;
+AddVertex,-1.32 ,  1.45 ,  18.07 ,;
+AddVertex,-1.32 ,  1.9 ,  18.02 ,;
+AddVertex,-1.35 ,  2.4 ,  17.93 ,;
+AddVertex,-1.38 ,  3.02 ,  17.72 ,;
+AddVertex,-1.39 ,  3.1 ,  17.65 ,;
+AddVertex,-1.41 ,  3.15 ,  17.53 ,
+AddVertex,-1.42 ,  3.15 ,  17.4 ,
+AddVertex,-1.07 ,  0.75 ,  18.2 ,
+AddVertex,-1.07 ,  1 ,  18.23 ,
+AddVertex,-1.07 ,  1.2 ,  18.26 ,
+AddVertex,-1.07 ,  1.45 ,  18.27 ,
+AddVertex,-1.07 ,  1.9 ,  18.22 ,
+AddVertex,-1.08 ,  2.4 ,  18.13 ,
+AddVertex,-1.18 ,  3.02 ,  17.92 ,
+AddVertex,-1.22 ,  3.25 ,  17.82 ,
+AddVertex,-1.28 ,  3.35 ,  17.63 ,
+AddVertex,-1.33 ,  3.43 ,  17.4 ,
+AddVertex,-0.73 ,  0.75 ,  18.4 ,
+AddVertex,-0.73 ,  1 ,  18.43 ,
+AddVertex,-0.73 ,  1.2 ,  18.46 ,
+AddVertex,-0.73 ,  1.45 ,  18.47 ,
+AddVertex,-0.77 ,  1.9 ,  18.42 ,
+AddVertex,-0.82 ,  2.4 ,  18.33 ,
+AddVertex,-0.94 ,  3.15 ,  18.07 ,
+AddVertex,-1 ,  3.4 ,  17.92 ,
+AddVertex,-1.08 ,  3.62 ,  17.57 ,
+AddVertex,-1.1 ,  3.65 ,  17.4 ,
+AddFace, 10, 11, 1, 0, 
+AddFace, 11, 12, 2, 1, 
+AddFace, 12, 13, 3, 2, 
+AddFace, 13, 14, 4, 3, 
+AddFace, 14, 15, 5, 4, 
+AddFace, 15, 16, 6, 5, 
+AddFace, 16, 17, 7, 6, 
+AddFace, 17, 18, 8, 7, 
+AddFace, 18, 19, 9, 8, 
+AddFace, 20, 21, 11, 10, 
+AddFace, 21, 22, 12, 11, 
+AddFace, 22, 23, 13, 12, 
+AddFace, 23, 24, 14, 13, 
+AddFace, 24, 25, 15, 14, 
+AddFace, 25, 26, 16, 15, 
+AddFace, 26, 27, 17, 16, 
+AddFace, 27, 28, 18, 17, 
+AddFace, 28, 29, 19, 18, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,front1-2.bmp,,,
+SetTextureCoordinates,0,0.005,0.995,
+SetTextureCoordinates,1,0.005,0.903,
+SetTextureCoordinates,2,0.005,0.83,
+SetTextureCoordinates,3,0.005,0.76,
+SetTextureCoordinates,4,0.005,0.58,
+SetTextureCoordinates,5,0.005,0.3
+SetTextureCoordinates,6,0.005,0.2
+SetTextureCoordinates,7,0.005,0.1
+SetTextureCoordinates,8,0.005,0.05
+SetTextureCoordinates,9,0.005,0.005
+SetTextureCoordinates,10,0.4,0.995
+SetTextureCoordinates,11,0.4,0.903
+SetTextureCoordinates,12,0.4,0.83
+SetTextureCoordinates,13,0.4,0.76
+SetTextureCoordinates,14,0.4,0.58
+SetTextureCoordinates,15,0.4,0.3
+SetTextureCoordinates,16,0.4,0.2
+SetTextureCoordinates,17,0.4,0.1
+SetTextureCoordinates,18,0.4,0.05
+SetTextureCoordinates,19,0.4,0.005
+SetTextureCoordinates,20,0.99,0.995;
+SetTextureCoordinates,21,0.99,0.903;
+SetTextureCoordinates,22,0.99,0.83;
+SetTextureCoordinates,23,0.99,0.76;
+SetTextureCoordinates,24,0.99,0.58;
+SetTextureCoordinates,25,0.99,0.3;
+SetTextureCoordinates,26,0.99,0.2;
+SetTextureCoordinates,27,0.99,0.1;
+SetTextureCoordinates,28,0.99,0.05;
+SetTextureCoordinates,29,0.99,0.005;
+
+
+CreateMeshBuilder,,;//後面,
+AddVertex,-1.42 ,  0.75 ,  0 ,;
+AddVertex,-1.42 ,  3.15 ,  0 ,;
+AddVertex,-1.33 ,  3.43 ,  0 ,;
+AddVertex,-1.1 ,  3.65 ,  0 ,
+AddVertex, 1.42 ,  0.75 ,  0 ,
+AddVertex, 1.42 ,  3.15 ,  0 ,
+AddVertex, 1.33 ,  3.43 ,  0 ,
+AddVertex, 1.1 ,  3.65 ,  0 ,
+AddFace, 1, 5, 4, 0, 
+AddFace, 2, 6, 5, 1, 
+AddFace, 3, 7, 6, 2, 
+GenerateNormals,,,,
+
+LoadTexture,front2.bmp,,,
+SetTextureCoordinates,0,0,0.995,
+SetTextureCoordinates,1,0,0.11,
+SetTextureCoordinates,2,0,0.1,
+SetTextureCoordinates,3,0,0.005,
+SetTextureCoordinates,4,1,0.995,
+SetTextureCoordinates,5,1,0.11,;
+SetTextureCoordinates,6,1,0.1,;
+SetTextureCoordinates,7,1,0.005,;
+
+
+CreateMeshBuilder,,;//左側面,,
+AddVertex, 1.42 ,  0.75 ,  17.04 ,;
+AddVertex, 1.42 ,  3.15 ,  17.04 ,;
+AddVertex, 1.33 ,  3.43 ,  17.04 ,;
+AddVertex, 1.1 ,  3.65 ,  17.04 ,;
+AddVertex, 1.42 ,  0.75 ,  0 ,;
+AddVertex, 1.42 ,  3.15 ,  0 ,;
+AddVertex, 1.33 ,  3.43 ,  0 ,;
+AddVertex, 1.1 ,  3.65 ,  0 ,;
+AddFace, 4, 5, 1, 0, ;
+AddFace, 5, 6, 2, 1, ;
+AddFace, 6, 7, 3, 2, ;
+GenerateNormals,,,;
+
+LoadTexture,side1.bmp,,;
+SetTextureCoordinates,0,0.035,0.995;
+SetTextureCoordinates,1,0.035,0.11;
+SetTextureCoordinates,2,0.035,0.1;
+SetTextureCoordinates,3,0.035,0.005;
+SetTextureCoordinates,4,0.768,0.995;
+SetTextureCoordinates,5,0.768,0.11;
+SetTextureCoordinates,6,0.768,0.1;
+SetTextureCoordinates,7,0.768,0.005;
+
+
+CreateMeshBuilder,,;//左側面,
+AddVertex, 1.42 ,  0.6 ,  14.45 ,;
+AddVertex, 1.42 ,  0.75 ,  14.8 ,;
+AddVertex, 1.42 ,  0.75 ,  11.7 ,;
+AddVertex, 1.42 ,  0.6 ,  12.05 ,;
+AddFace, 3, 2, 1, 0, ;
+SetColor,150,150,150,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//左側面,,
+AddVertex, 1.42 ,  0.75 ,  17.4 ,;
+AddVertex, 1.32 ,  0.75 ,  18 ,;
+AddVertex, 1.42 ,  1 ,  17.4 ,;
+AddVertex, 1.32 ,  1 ,  18.03 ,;
+AddVertex, 1.42 ,  1.2 ,  17.4 ,;
+AddVertex, 1.32 ,  1.2 ,  18.06 ,;
+AddVertex, 1.42 ,  1.45 ,  17.4 ,;
+AddVertex, 1.32 ,  1.45 ,  18.07 ,
+AddVertex, 1.42 ,  1.9 ,  17.4 ,
+AddVertex, 1.32 ,  1.9 ,  18.02 ,
+AddVertex, 1.42 ,  2.4 ,  17.4 ,
+AddVertex, 1.35 ,  2.4 ,  17.93 ,
+AddVertex, 1.42 ,  3.02 ,  17.4 ,
+AddVertex, 1.38 ,  3.02 ,  17.72 ,
+AddVertex, 1.42 ,  3.1 ,  17.4 ,
+AddVertex, 1.39 ,  3.1 ,  17.65 ,
+AddVertex, 1.42 ,  3.15 ,  17.4 ,
+AddVertex, 1.41 ,  3.15 ,  17.53 ,
+AddFace, 2, 3, 1, 0, 
+AddFace, 4, 5, 3, 2, 
+AddFace, 6, 7, 5, 4, 
+AddFace, 8, 9, 7, 6, 
+AddFace, 10, 11, 9, 8, 
+AddFace, 12, 13, 11, 10, 
+AddFace, 14, 15, 13, 12, 
+AddFace, 16, 17, 15, 14, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,side1.bmp,,,
+SetTextureCoordinates,0,0.025,0.995,
+SetTextureCoordinates,1,0.005,0.995,
+SetTextureCoordinates,2,0.025,0.903,
+SetTextureCoordinates,3,0.005,0.903,
+SetTextureCoordinates,4,0.025,0.83,
+SetTextureCoordinates,5,0.005,0.83,
+SetTextureCoordinates,6,0.02,0.8,
+SetTextureCoordinates,7,0.005,0.8,
+SetTextureCoordinates,8,0.02,0.7,
+SetTextureCoordinates,9,0.01,0.7,;
+SetTextureCoordinates,10,0.02,0.3;
+SetTextureCoordinates,11,0.01,0.3;
+SetTextureCoordinates,12,0.02,0.165;
+SetTextureCoordinates,13,0.01,0.165;
+SetTextureCoordinates,14,0.02,0.125;
+SetTextureCoordinates,15,0.01,0.125;
+SetTextureCoordinates,16,0.02,0.112;
+SetTextureCoordinates,17,0.01,0.112;
+
+
+CreateMeshBuilder,,;//右側面,
+AddVertex,-1.42 ,  0.75 ,  17.04 ,;
+AddVertex,-1.42 ,  3.15 ,  17.04 ,;
+AddVertex,-1.33 ,  3.43 ,  17.04 ,;
+AddVertex,-1.1 ,  3.65 ,  17.04 ,;
+AddVertex,-1.42 ,  0.75 ,  0 ,
+AddVertex,-1.42 ,  3.15 ,  0 ,
+AddVertex,-1.33 ,  3.43 ,  0 ,
+AddVertex,-1.1 ,  3.65 ,  0 ,
+AddFace, 1, 5, 4, 0, 
+AddFace, 2, 6, 5, 1, 
+AddFace, 3, 7, 6, 2, 
+GenerateNormals,,,,
+
+LoadTexture,side3.bmp,,,
+SetTextureCoordinates,0,0.965,0.995,
+SetTextureCoordinates,1,0.965,0.11,
+SetTextureCoordinates,2,0.965,0.1,
+SetTextureCoordinates,3,0.965,0.005,
+SetTextureCoordinates,4,0.232,0.995,
+SetTextureCoordinates,5,0.232,0.11,
+SetTextureCoordinates,6,0.232,0.1,;
+SetTextureCoordinates,7,0.232,0.005,;
+
+
+CreateMeshBuilder,,;//右側面,,
+AddVertex,-1.42 ,  0.6 ,  14.45 ,;
+AddVertex,-1.42 ,  0.75 ,  14.8 ,;
+AddVertex,-1.42 ,  0.75 ,  11.7 ,;
+AddVertex,-1.42 ,  0.6 ,  12.05 ,;
+AddFace, 1, 2, 3, 0, ;
+SetColor,150,150,150,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//右側面,,
+AddVertex,-1.42 ,  0.75 ,  17.4 ,;
+AddVertex,-1.32 ,  0.75 ,  18 ,
+AddVertex,-1.42 ,  1 ,  17.4 ,
+AddVertex,-1.32 ,  1 ,  18.03 ,
+AddVertex,-1.42 ,  1.2 ,  17.4 ,
+AddVertex,-1.32 ,  1.2 ,  18.06 ,
+AddVertex,-1.42 ,  1.45 ,  17.4 ,
+AddVertex,-1.32 ,  1.45 ,  18.07 ,
+AddVertex,-1.42 ,  1.9 ,  17.4 ,
+AddVertex,-1.32 ,  1.9 ,  18.02 ,
+AddVertex,-1.42 ,  2.4 ,  17.4 ,
+AddVertex,-1.35 ,  2.4 ,  17.93 ,
+AddVertex,-1.42 ,  3.02 ,  17.4 ,
+AddVertex,-1.38 ,  3.02 ,  17.72 ,
+AddVertex,-1.42 ,  3.1 ,  17.4 ,
+AddVertex,-1.39 ,  3.1 ,  17.65 ,
+AddVertex,-1.42 ,  3.15 ,  17.4 ,
+AddVertex,-1.41 ,  3.15 ,  17.53 ,
+AddFace, 1, 3, 2, 0, 
+AddFace, 3, 5, 4, 2, 
+AddFace, 5, 7, 6, 4, 
+AddFace, 7, 9, 8, 6, 
+AddFace, 9, 11, 10, 8, 
+AddFace, 11, 13, 12, 10, 
+AddFace, 13, 15, 14, 12, 
+AddFace, 15, 17, 16, 14, 
+Translate, 0 ,  0 , -0.36 ,
+GenerateNormals,,,,
+
+LoadTexture,side1.bmp,,,
+SetTextureCoordinates,0,0.025,0.995,
+SetTextureCoordinates,1,0.005,0.995,
+SetTextureCoordinates,2,0.025,0.903,
+SetTextureCoordinates,3,0.005,0.903,
+SetTextureCoordinates,4,0.025,0.83
+SetTextureCoordinates,5,0.005,0.83
+SetTextureCoordinates,6,0.02,0.8
+SetTextureCoordinates,7,0.005,0.8
+SetTextureCoordinates,8,0.02,0.7
+SetTextureCoordinates,9,0.01,0.7
+SetTextureCoordinates,10,0.02,0.3
+SetTextureCoordinates,11,0.01,0.3
+SetTextureCoordinates,12,0.02,0.165
+SetTextureCoordinates,13,0.01,0.165
+SetTextureCoordinates,14,0.02,0.125
+SetTextureCoordinates,15,0.01,0.125
+SetTextureCoordinates,16,0.02,0.112
+SetTextureCoordinates,17,0.01,0.112
+
+
+CreateMeshBuilder,,;//底面,,
+AddVertex,-1.42 ,  0.75 ,  17.4 ,;
+AddVertex, 1.42 ,  0.75 ,  17.4 ,;
+AddVertex,-1.42 ,  0.75 ,  0.36 ,;
+AddVertex, 1.42 ,  0.75 ,  0.36 ,;
+AddVertex,-1.32 ,  0.75 ,  18 ,;
+AddVertex, 1.32 ,  0.75 ,  18 ,;
+AddVertex,-1.07 ,  0.75 ,  18.2 ,;
+AddVertex, 1.07 ,  0.75 ,  18.2 ,;
+AddVertex,-0.73 ,  0.75 ,  18.4 ,;
+AddVertex, 0.73 ,  0.75 ,  18.4 ,;
+AddVertex,-0.68 ,  0.75 ,  18.4 ,;
+AddVertex, 0.68 ,  0.75 ,  18.4 ,;
+AddVertex,-0.5 ,  0.75 ,  18 ,;
+AddVertex, 0.5 ,  0.75 ,  18 ,;
+AddFace, 2, 3, 1, 0, ;
+AddFace, 0, 1, 5, 4, ;
+AddFace, 12, 10, 8, 6, 4, ;
+AddFace, 5, 7, 9, 11, 13, ;
+SetColor,5,5,5,,;
+Translate, 0 ,  0 , -0.36 ,;
+GenerateNormals,,,,,;
+
+
+;------屋根------,,,,,
+CreateMeshBuilder,,;//屋根,,,
+AddVertex,-1.1 ,  3.65 ,  17.04 ,;
+AddVertex, 1.1 ,  3.65 ,  17.04 ,;
+AddVertex,-1.1 ,  3.65 ,  0 ,;
+AddVertex, 1.1 ,  3.65 ,  0 ,;
+AddFace, 1, 3, 2, 0, ;
+SetColor,100,100,100,,;
+GenerateNormals,,,;
+
+
+;------屋根上機器------,,,
+CreateMeshBuilder,,;//クーラー,
+Cube,1,0.04,1.8;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,90,90,90;
+Translate, 0 ,  3.72 ,  12 ,;
+GenerateNormals,,,;
+
+
+CreateMeshBuilder,,;//クーラー,
+AddVertex,-0.95 ,  3.7 ,  1.8 ,;
+AddVertex,-0.95 ,  3.7 , -1.8 ,;
+AddVertex, 0.95 ,  3.7 ,  1.8 ,
+AddVertex, 0.95 ,  3.7 , -1.8 ,
+AddVertex,-0.9 ,  4.1 ,  1.8 ,
+AddVertex,-0.9 ,  4.1 , -1.8 ,
+AddVertex, 0.9 ,  4.1 ,  1.8 ,
+AddVertex, 0.9 ,  4.1 , -1.8 ,
+AddFace, 4, 5, 1, 0, 
+AddFace, 3, 7, 6, 2, 
+AddFace, 2, 6, 4, 0, 
+AddFace, 5, 7, 3, 1, 
+AddFace, 6, 7, 5, 4, 
+Translate, 0 ,  0 ,  12 ,
+SetColor,90,90,90,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cube,0.45,0.25,0.35,;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,90,90,90,;
+Translate, 0 ,  3.72 ,  14.25 ,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cube,0.4,0.25,0.85,;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,90,90,90,;
+Translate, 0 ,  3.72 ,  15.9 ,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.17,0.17,0.08;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,;
+Translate, 0.86 ,  3.75 ,  15.1 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,6,0.12,0.12,0.12;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,80,80,80,;
+Translate, 0.86 ,  3.7 ,  15.1 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.17,0.17,0.08;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,;
+Translate,-0.86 ,  3.75 ,  15.1 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,6,0.12,0.12,0.12;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,80,80,80,;
+Translate,-0.86 ,  3.7 ,  15.1 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.17,0.17,0.08;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,;
+Translate, 0.86 ,  3.75 ,  5.15 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,6,0.12,0.12,0.12;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,80,80,80,;
+Translate, 0.86 ,  3.7 ,  5.15 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.17,0.17,0.08;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,;
+Translate,-0.86 ,  3.75 ,  5.15 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,6,0.12,0.12,0.12;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,80,80,80,;
+Translate,-0.86 ,  3.7 ,  5.15 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.17,0.17,0.08;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,;
+Translate, 0.86 ,  3.75 ,  1.3 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,6,0.12,0.12,0.12;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,80,80,80,;
+Translate, 0.86 ,  3.7 ,  1.3 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.17,0.17,0.08;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,;
+Translate,-0.86 ,  3.75 ,  1.3 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,6,0.12,0.12,0.12;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,80,80,80,;
+Translate,-0.86 ,  3.7 ,  1.3 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.02,0.1,0.22;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,120,120,120,;
+ROtate, 1 ,  0 ,  0 ,-90 ;
+Translate, 0 ,  3.75 ,  16.98 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,,
+Cylinder,8,0.06,0.03,0.05;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,120,120,120,;
+ROtate, 1 ,  0 ,  0 ,-90 ;
+Translate, 0 ,  3.75 ,  16.86 ,;
+
+
+CreateMeshBuilder,,;//屋根上機器,
+Cube,0.03,0.07,0.01;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,120,120,120;
+Translate, 0 ,  3.7 ,  16.89 ,;
+GenerateNormals,,,;
+
+
+;------床下機器------,,,
+CreateMeshBuilder,,;//床下機器,
+AddVertex, 1.1 ,  0.25 ,  12.7 ,;
+AddVertex, 1.1 ,  0.8 ,  12.7 ,;
+AddVertex, 1.1 ,  0.8 ,  3.1 ,
+AddVertex, 1.1 ,  0.25 ,  3.1 ,
+AddVertex,-1.1 ,  0.25 ,  12.7 ,
+AddVertex,-1.1 ,  0.8 ,  12.7 ,
+AddVertex,-1.1 ,  0.8 ,  3.1 ,
+AddVertex,-1.1 ,  0.25 ,  3.1 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 5, 6, 7, 4, 
+GenerateNormals,,,,
+
+LoadTexture,under1.bmp,,,
+SetTextureCoordinates,0,0.003,1,
+SetTextureCoordinates,1,0.003,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,0.003,1,
+SetTextureCoordinates,5,0.003,0,;
+SetTextureCoordinates,6,1,0,;
+SetTextureCoordinates,7,1,1,;
+
+
+CreateMeshBuilder,,;//床下機器,,
+AddVertex,-1.1 ,  0.25 ,  12.7 ,;
+AddVertex,-1.1 ,  0.8 ,  12.7 ,;
+AddVertex, 1.1 ,  0.8 ,  12.7 ,;
+AddVertex, 1.1 ,  0.25 ,  12.7 ,;
+AddVertex,-1.1 ,  0.25 ,  3.1 ,;
+AddVertex,-1.1 ,  0.8 ,  3.1 ,;
+AddVertex, 1.1 ,  0.8 ,  3.1 ,;
+AddVertex, 1.1 ,  0.25 ,  3.1 ,;
+AddFace, 3, 2, 1, 0, ;
+AddFace, 5, 6, 7, 4, ;
+GenerateNormals,,,,;
+
+LoadTexture,under1.bmp,,,;
+SetTextureCoordinates,0,0.5,1;
+SetTextureCoordinates,1,0.5,0;
+SetTextureCoordinates,2,0.55,0;
+SetTextureCoordinates,3,0.55,1;
+SetTextureCoordinates,4,0.99,1;
+SetTextureCoordinates,5,0.99,0;
+SetTextureCoordinates,6,0.98,0;
+SetTextureCoordinates,7,0.98,1;
+
+
+;------連結器------,,,
+CreateMeshBuilder,,;//連結器,
+AddVertex,-0.45 ,  0.8 ,  18.3 ,;
+AddVertex,-0.45 ,  1.25 ,  18.3 ,;
+AddVertex, 0.45 ,  1.25 ,  18.3 ,;
+AddVertex, 0.45 ,  0.8 ,  18.3 ,;
+AddFace, 3, 2, 1, 0, ;
+GenerateNormals,,,,;
+
+LoadTexture,renketsuki.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//連結器,,
+AddVertex,-0.37 ,  1.21 ,  18.3 ,;
+AddVertex,-0.37 ,  1.21 ,  18 ,;
+AddVertex, 0.37 ,  1.21 ,  18 ,;
+AddVertex, 0.37 ,  1.21 ,  18.3 ,;
+AddFace2, 3, 2, 1, 0, ;
+SetColor,100,100,100,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//連結器,,
+Cube,0.22,0.15,0.19,;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,50,50,50,;
+Translate, 0 ,  1.05 ,  18.1 ,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//連結器,,
+Cube,0.04,0.15,0.19,;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,110,110,110,;
+Translate,-0.3 ,  1.05 ,  18.1 ,;
+GenerateNormals,,,,;
+
+
+CreateMeshBuilder,,;//連結器,,
+Cube,0.04,0.15,0.19,;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,110,110,110,;
+Translate, 0.3 ,  1.05 ,  18.1 ,;
+GenerateNormals,,,,;
+
+
+;------台車(前）------,,,,
+CreateMeshBuilder,,;//車輪左前,,
+Cylinder,16,0.4,0.37,0.07;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,10,;
+ROtate, 0 ,  0 ,  1 ,-90 ;
+Translate, 0.74 ,  0.37 ,  16.55 ,;
+
+
+CreateMeshBuilder,,;//車輪左前,,
+AddVertex, 0.78 ,  0 ,  16.92 ,;
+AddVertex, 0.78 ,  0.74 ,  16.92 ,;
+AddVertex, 0.78 ,  0.74 ,  16.18 ,;
+AddVertex, 0.78 ,  0 ,  16.18 ,;
+AddFace, 3, 2, 1, 0, ;
+GenerateNormals,,,,;
+
+LoadTexture,sharin.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//車輪右前,,
+Cylinder,16,0.37,0.4,0.07;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,10,;
+ROtate, 0 ,  0 ,  1 ,-90 ;
+Translate,-0.74 ,  0.37 ,  16.55 ,;
+
+
+CreateMeshBuilder,,;//車輪右前,,
+AddVertex,-0.78 ,  0 ,  16.92 ,;
+AddVertex,-0.78 ,  0.74 ,  16.92 ,;
+AddVertex,-0.78 ,  0.74 ,  16.18 ,;
+AddVertex,-0.78 ,  0 ,  16.18 ,;
+AddFace, 1, 2, 3, 0, ;
+GenerateNormals,,,,;
+
+LoadTexture,sharin.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//車輪左後,,
+Cylinder,16,0.4,0.37,0.07;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,10,;
+ROtate, 0 ,  0 ,  1 ,-90 ;
+Translate, 0.74 ,  0.37 ,  14.55 ,;
+
+
+CreateMeshBuilder,,;//車輪左後,,
+AddVertex, 0.78 ,  0 ,  16.92 ,;
+AddVertex, 0.78 ,  0.74 ,  16.92 ,;
+AddVertex, 0.78 ,  0.74 ,  16.18 ,;
+AddVertex, 0.78 ,  0 ,  16.18 ,;
+AddFace, 3, 2, 1, 0, ;
+Translate, 0 ,  0 , -2 ,;
+GenerateNormals,,,,;
+
+LoadTexture,sharin.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//車輪右後,,
+Cylinder,16,0.37,0.4,0.07;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,10,;
+ROtate, 0 ,  0 ,  1 ,-90 ;
+Translate,-0.74 ,  0.37 ,  14.55 ,;
+
+
+CreateMeshBuilder,,;//車輪右後,,
+AddVertex,-0.78 ,  0 ,  16.92 ,;
+AddVertex,-0.78 ,  0.74 ,  16.92 ,;
+AddVertex,-0.78 ,  0.74 ,  16.18 ,;
+AddVertex,-0.78 ,  0 ,  16.18 ,;
+AddFace, 1, 2, 3, 0, ;
+Translate, 0 ,  0 , -2 ,;
+GenerateNormals,,,,;
+
+LoadTexture,sharin.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//車軸前,,
+Cylinder,4,0.08,0.08,1.65;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,10,;
+ROtate, 0 ,  0 ,  1 ,-90 ;
+Translate, 0 ,  0.37 ,  16.55 ,;
+
+
+CreateMeshBuilder,,;//車軸後,,
+Cylinder,4,0.08,0.08,1.65;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,10,;
+ROtate, 0 ,  0 ,  1 ,-90 ;
+Translate, 0 ,  0.37 ,  14.55 ,;
+
+
+CreateMeshBuilder,,;//左台車,,
+AddVertex, 1.05 ,  0.05 ,  17.02 ,;
+AddVertex, 1.05 ,  0.75 ,  17.02 ,;
+AddVertex, 1.05 ,  0.75 ,  14.08 ,;
+AddVertex, 1.05 ,  0.05 ,  14.08 ,;
+AddFace, 3, 2, 1, 0, ;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//左台車,,
+AddVertex, 0.9 ,  0.05 ,  17.02 ,;
+AddVertex, 0.9 ,  0.75 ,  17.02 ,;
+AddVertex, 0.9 ,  0.75 ,  14.08 ,;
+AddVertex, 0.9 ,  0.05 ,  14.08 ,;
+AddFace2, 3, 2, 1, 0, ;
+SetColor,50,50,50,;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//右台車,,
+AddVertex,-1.05 ,  0.05 ,  17.02 ,;
+AddVertex,-1.05 ,  0.75 ,  17.02 ,;
+AddVertex,-1.05 ,  0.75 ,  14.08 ,;
+AddVertex,-1.05 ,  0.05 ,  14.08 ,;
+AddFace, 1, 2, 3, 0, ;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//右台車,,
+AddVertex,-0.9 ,  0.05 ,  17.02 ,;
+AddVertex,-0.9 ,  0.75 ,  17.02 ,;
+AddVertex,-0.9 ,  0.75 ,  14.08 ,;
+AddVertex,-0.9 ,  0.05 ,  14.08 ,;
+AddFace2, 3, 2, 1, 0, ;
+SetColor,50,50,50,;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1.bmp,,,;
+SetTextureCoordinates,0,0,1,;
+SetTextureCoordinates,1,0,0,;
+SetTextureCoordinates,2,1,0,;
+SetTextureCoordinates,3,1,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//左ヨーダンパ,,
+AddVertex, 1.2 ,  0.17 ,  16.1 ,;
+AddVertex, 1.2 ,  0.85 ,  16.1 ,;
+AddVertex, 1.2 ,  0.85 ,  14.8 ,;
+AddVertex, 1.2 ,  0.17 ,  14.8 ,;
+AddFace, 3, 2, 1, 0, ;
+SetColor,220,220,220,;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1-2.bmp,,,;
+SetTextureCoordinates,0,1,1,;
+SetTextureCoordinates,1,1,0,;
+SetTextureCoordinates,2,0,0,;
+SetTextureCoordinates,3,0,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//左ヨーダンパ,,
+AddVertex, 1.07 ,  0.17 ,  16.1 ,;
+AddVertex, 1.07 ,  0.85 ,  16.1 ,;
+AddVertex, 1.07 ,  0.85 ,  14.8 ,;
+AddVertex, 1.07 ,  0.17 ,  14.8 ,;
+AddFace2, 3, 2, 1, 0, ;
+SetColor,100,100,100;
+GenerateNormals,,,;
+
+LoadTexture,daisha1-2.bmp,,;
+SetTextureCoordinates,0,1,1;
+SetTextureCoordinates,1,1,0;
+SetTextureCoordinates,2,0,0;
+SetTextureCoordinates,3,0,1;
+SetDecalTransparentColor,0,0,0;
+
+
+CreateMeshBuilder,,;//右ヨーダンパ,
+AddVertex,-1.2 ,  0.17 ,  16.1 ,;
+AddVertex,-1.2 ,  0.85 ,  16.1 ,;
+AddVertex,-1.2 ,  0.85 ,  14.8 ,;
+AddVertex,-1.2 ,  0.17 ,  14.8 ,;
+AddFace, 1, 2, 3, 0, ;
+SetColor,220,220,220,;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1-2.bmp,,,;
+SetTextureCoordinates,0,1,1,;
+SetTextureCoordinates,1,1,0,;
+SetTextureCoordinates,2,0,0,;
+SetTextureCoordinates,3,0,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//右ヨーダンパ,,
+AddVertex,-1.07 ,  0.17 ,  16.1 ,;
+AddVertex,-1.07 ,  0.85 ,  16.1 ,;
+AddVertex,-1.07 ,  0.85 ,  14.8 ,;
+AddVertex,-1.07 ,  0.17 ,  14.8 ,;
+AddFace2, 3, 2, 1, 0, ;
+SetColor,100,100,100,;
+GenerateNormals,,,,;
+
+LoadTexture,daisha1-2.bmp,,,;
+SetTextureCoordinates,0,1,1,;
+SetTextureCoordinates,1,1,0,;
+SetTextureCoordinates,2,0,0,;
+SetTextureCoordinates,3,0,1,;
+SetDecalTransparentColor,0,0,0,;
+
+
+CreateMeshBuilder,,;//左台車,,
+Cylinder,6,0.17,0.15,0.11;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,72,71,60,;
+Translate, 0.95 ,  0.53 ,  15.55 ,;
+
+
+CreateMeshBuilder,,;//右台車,,
+Cylinder,6,0.17,0.15,0.11;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,72,71,60,;
+Translate,-0.95 ,  0.53 ,  15.55 ,;
+
+
+CreateMeshBuilder,,;//左側空気バネ,,
+Cylinder,8,0.3,0.3,0.13;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,86,78,70,;
+Translate, 0.95 ,  0.65 ,  15.55 ,;
+
+
+CreateMeshBuilder,,;//左側空気バネ,,
+Cylinder,6,0.18,0.18,0.1;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,56,48,40,;
+Translate, 0.95 ,  0.75 ,  15.55 ,;
+
+
+CreateMeshBuilder,,;//右側空気バネ,,
+Cylinder,8,0.3,0.3,0.13;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,86,78,70,;
+Translate,-0.95 ,  0.65 ,  15.55 ,;
+
+
+CreateMeshBuilder,,;//右側空気バネ,,
+Cylinder,6,0.18,0.18,0.1;
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,56,48,40,;
+Translate,-0.95 ,  0.75 ,  15.55 ,;
+
+
+;------影------,,,,
+CreateMeshBuilder,,;//影,,
+AddVertex,-1.4 , -0.1 ,  18.2 ,;
+AddVertex,-1.4 , -0.1 , -0.2 ,;
+AddVertex, 1.4 , -0.1 , -0.2 ,;
+AddVertex, 1.4 , -0.1 ,  18.2 ,;
+AddFace, 3, 2, 1, 0, ;
+SetColor,0,0,0,150;
+GenerateNormals,,,,;
+
+TranslateAll, 0 ,  0 , 10.135 ,;
+;（Ｃ）２００６ ＲＯＮ,,,,

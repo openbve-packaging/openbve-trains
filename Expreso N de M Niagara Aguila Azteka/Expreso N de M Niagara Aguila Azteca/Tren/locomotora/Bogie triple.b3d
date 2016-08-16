@@ -1,0 +1,32 @@
+[meshbuilder]
+vertex 1.1, 1.2, -2.3
+vertex 1.1, 1.2,  2.3
+vertex 1.1, 0.2,    2.3
+vertex 1.1, 0.2,   -2.3
+face2 0,1,2,3
+[texture]
+load Bogie triple.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -1.1, 1.2, -2.3
+vertex -1.1, 1.2,  2.3
+vertex -1.1, 0.2,    2.3
+vertex -1.1, 0.2,   -2.3
+face2 0,1,2,3
+[texture]
+load Bogie triple.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.5,0.3,2
+color 40,40,40
+translate 0,0.6,0

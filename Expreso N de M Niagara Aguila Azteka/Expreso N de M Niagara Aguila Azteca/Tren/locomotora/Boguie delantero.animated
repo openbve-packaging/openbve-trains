@@ -1,0 +1,11 @@
+[include]
+Position = 0, 0, 0
+bogie delantero.csv
+
+[include]
+Position = 0, 0.44, 1.14
+rueda 1.csv
+
+[include]
+Position = 0, 0.44, -1.14
+rueda 1.csv

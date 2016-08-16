@@ -1,0 +1,173 @@
+[object]
+States=vagon.csv
+
+[object]
+Position = 0, 0, 0
+States=Techo.csv
+
+[object]
+Position = 0, 0, 0
+States=Techo interno.csv
+
+;Puertas
+
+;1
+[Object]
+Position = -1.45, 1.12, 11.21
+States = puerta delantera.b3d
+RotateYFunction = 1.5 * rightdoors[0]
+;2
+[Object]
+Position = -1.45, 1.12, -11.23
+States = puerta trasera.b3d
+RotateYFunction = -1.5 * leftdoors[0]
+;3
+[Object]
+Position = 1.45, 1.12, 11.23
+States = puerta delantera.b3d
+RotateYFunction = -1.5 * rightdoors[0]
+;4
+[Object]
+Position = 1.45, 1.12, -11.21
+States = puerta trasera.b3d
+RotateYFunction = 1.5 * leftdoors[0]
+
+[object]
+Position = 0, 0, -11.6
+States=Escaleras.b3d
+
+[object]
+Position = 0, 0, 11.6
+States=Escaleras.b3d
+
+;Asientos izquierdos
+
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,7.53
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,6.64
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,5.75
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,4.86
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,3.97
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,3.08
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,2.18
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,1.29
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,0.39
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-0.5
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-1.4
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-2.29
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-3.18
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-4.07
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-4.97
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-5.86
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-6.76
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-7.65
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-8.55
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-9.44
+[Object]
+States=Asiento.b3d
+Position= 0.9,1,-10.3
+
+;Asientos derechos
+
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,7.53
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,6.64
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,5.75
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,4.86
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,3.97
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,3.08
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,2.18
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,1.29
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,0.39
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-0.5
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-1.4
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-2.29
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-3.18
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-4.07
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-4.97
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-5.86
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-6.76
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-7.65
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-8.55
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-9.44
+[Object]
+States=Asiento.b3d
+Position=-0.9,1,-10.3

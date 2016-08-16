@@ -1,0 +1,12 @@
+[Include]
+Lead Truck.csv
+
+[Object]
+Position = 0, 0.457, 1.2955
+states=Wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.457, -1.2955
+states=Wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2

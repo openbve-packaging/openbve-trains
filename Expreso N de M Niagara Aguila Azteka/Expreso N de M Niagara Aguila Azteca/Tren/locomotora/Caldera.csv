@@ -1,0 +1,521 @@
+﻿CreateMeshBuilder
+Addvertex, 9.5,  0.59, -0.59
+Addvertex, 9.5,  0.59,  0.59
+Addvertex, 9.5, -0.59,  0.59
+Addvertex, 9.5, -0.59, -0.59
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, Tapita.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,0
+
+CreateMeshBuilder
+Addvertex, -5.68,  0.59, -0.59
+Addvertex, -5.68,  0.59,  0.59
+Addvertex, -5.68, -0.59,  0.59
+Addvertex, -5.68, -0.59, -0.59
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, Tapita.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,0
+setcolor, 50,50,50
+
+CreateMeshBuilder
+Addvertex, 9.6,  0.25, -0.25
+Addvertex, 9.6,  0.25,  0.25
+Addvertex, 9.6, -0.25,  0.25
+Addvertex, 9.6, -0.25, -0.25
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, Tapa.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.59,  0.04
+Addvertex,  9.5, 0.59, -0.04
+Addvertex, -5.68, 0.59, -0.04
+Addvertex, -5.68, 0.59,  0.04
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.58, 0.12
+Addvertex,  9.5, 0.59, 0.04
+Addvertex, -5.68, 0.59, 0.04
+Addvertex, -5.68, 0.58, 0.12
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.558, 0.2
+Addvertex,  9.5, 0.58,  0.12
+Addvertex, -5.68, 0.58,  0.12
+Addvertex, -5.68, 0.558, 0.2
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.522, 0.28
+Addvertex,  9.5, 0.558, 0.2
+Addvertex, -5.68, 0.558, 0.2
+Addvertex, -5.68, 0.522, 0.28
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.47,  0.36
+Addvertex,  9.5, 0.522, 0.28
+Addvertex, -5.68, 0.522, 0.28
+Addvertex, -5.68, 0.47,  0.36
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.395, 0.44
+Addvertex,  9.5, 0.47,  0.36
+Addvertex, -5.68, 0.47,  0.36
+Addvertex, -5.68, 0.395, 0.44
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.285, 0.52
+Addvertex,  9.5, 0.395, 0.44
+Addvertex, -5.68, 0.395, 0.44
+Addvertex, -5.68, 0.285, 0.52
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.15,  0.575
+Addvertex,  9.5, 0.285, 0.52
+Addvertex, -5.68, 0.285, 0.52
+Addvertex, -5.68, 0.15,  0.575
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0,    0.59
+Addvertex,  9.5, 0.15, 0.575
+Addvertex, -5.68, 0.15, 0.575
+Addvertex, -5.68, 0,    0.59
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+;---------------------------------------------------------------
+CreateMeshBuilder
+Addvertex,  9.5, -0.58, 0.12
+Addvertex,  9.5, -0.59, 0.04
+Addvertex, -5.68, -0.59, 0.04
+Addvertex, -5.68, -0.58, 0.12
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.558, 0.2
+Addvertex,  9.5, -0.58,  0.12
+Addvertex, -5.68, -0.58,  0.12
+Addvertex, -5.68, -0.558, 0.2
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.522, 0.28
+Addvertex,  9.5, -0.558, 0.2
+Addvertex, -5.68, -0.558, 0.2
+Addvertex, -5.68, -0.522, 0.28
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.47,  0.36
+Addvertex,  9.5, -0.522, 0.28
+Addvertex, -5.68, -0.522, 0.28
+Addvertex, -5.68, -0.47,  0.36
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.395, 0.44
+Addvertex,  9.5, -0.47,  0.36
+Addvertex, -5.68, -0.47,  0.36
+Addvertex, -5.68, -0.395, 0.44
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.285, 0.52
+Addvertex,  9.5, -0.395, 0.44
+Addvertex, -5.68, -0.395, 0.44
+Addvertex, -5.68, -0.285, 0.52
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.15,  0.575
+Addvertex,  9.5, -0.285, 0.52
+Addvertex, -5.68, -0.285, 0.52
+Addvertex, -5.68, -0.15,  0.575
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0,    0.59
+Addvertex,  9.5, -0.15, 0.575
+Addvertex, -5.68, -0.15, 0.575
+Addvertex, -5.68, -0,    0.59
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+;---------------------------------------------------------------
+CreateMeshBuilder
+Addvertex,  9.5, -0.58, -0.12
+Addvertex,  9.5, -0.59, -0.04
+Addvertex, -5.68, -0.59, -0.04
+Addvertex, -5.68, -0.58, -0.12
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.558, -0.2
+Addvertex,  9.5, -0.58,  -0.12
+Addvertex, -5.68, -0.58,  -0.12
+Addvertex, -5.68, -0.558, -0.2
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.522, -0.28
+Addvertex,  9.5, -0.558, -0.2
+Addvertex, -5.68, -0.558, -0.2
+Addvertex, -5.68, -0.522, -0.28
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.47,  -0.36
+Addvertex,  9.5, -0.522, -0.28
+Addvertex, -5.68, -0.522, -0.28
+Addvertex, -5.68, -0.47,  -0.36
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.395, -0.44
+Addvertex,  9.5, -0.47,  -0.36
+Addvertex, -5.68, -0.47,  -0.36
+Addvertex, -5.68, -0.395, -0.44
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.285, -0.52
+Addvertex,  9.5, -0.395, -0.44
+Addvertex, -5.68, -0.395, -0.44
+Addvertex, -5.68, -0.285, -0.52
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0.15,  -0.575
+Addvertex,  9.5, -0.285, -0.52
+Addvertex, -5.68, -0.285, -0.52
+Addvertex, -5.68, -0.15,  -0.575
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, -0,    -0.59
+Addvertex,  9.5, -0.15, -0.575
+Addvertex, -5.68, -0.15, -0.575
+Addvertex, -5.68, -0,    -0.59
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+;---------------------------------------------------------------
+CreateMeshBuilder
+Addvertex,  9.5, -0.59,  0.04
+Addvertex,  9.5, -0.59, -0.04
+Addvertex, -5.68, -0.59, -0.04
+Addvertex, -5.68, -0.59,  0.04
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.58, -0.12
+Addvertex,  9.5, 0.59, -0.04
+Addvertex, -5.68, 0.59, -0.04
+Addvertex, -5.68, 0.58, -0.12
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.558, -0.2
+Addvertex,  9.5, 0.58,  -0.12
+Addvertex, -5.68, 0.58,  -0.12
+Addvertex, -5.68, 0.558, -0.2
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.522, -0.28
+Addvertex,  9.5, 0.558, -0.2
+Addvertex, -5.68, 0.558, -0.2
+Addvertex, -5.68, 0.522, -0.28
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.47,  -0.36
+Addvertex,  9.5, 0.522, -0.28
+Addvertex, -5.68, 0.522, -0.28
+Addvertex, -5.68, 0.47,  -0.36
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.395, -0.44
+Addvertex,  9.5, 0.47,  -0.36
+Addvertex, -5.68, 0.47,  -0.36
+Addvertex, -5.68, 0.395, -0.44
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.285, -0.52
+Addvertex,  9.5, 0.395, -0.44
+Addvertex, -5.68, 0.395, -0.44
+Addvertex, -5.68, 0.285, -0.52
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0.15,  -0.575
+Addvertex,  9.5, 0.285, -0.52
+Addvertex, -5.68, 0.285, -0.52
+Addvertex, -5.68, 0.15,  -0.575
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  9.5, 0,    -0.59
+Addvertex,  9.5, 0.15, -0.575
+Addvertex, -5.68, 0.15, -0.575
+Addvertex, -5.68, 0,    -0.59
+AddFace, 3,2,1,0
+GenerateNormals
+loadtexture, neumatico.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+Rotateall, 0,1,0,-90
+scaleall, 1.8, 1.8, 0.9999

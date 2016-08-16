@@ -1,0 +1,15 @@
+[object]
+States=vagon.csv
+
+[object]
+Position = 0, 0, 0
+States=Techo.csv
+
+;Enganches
+
+[object]
+Position = 0, 0, 10.4
+States=Enganche delantero.b3d
+[object]
+Position = 0, 0, -10.4
+States=Enganche trasero.b3d

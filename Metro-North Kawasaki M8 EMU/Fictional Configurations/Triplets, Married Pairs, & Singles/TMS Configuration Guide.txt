@@ -1,0 +1,135 @@
+112 Trains
+
+Key:
+M = Married Pair (Motor[A] - Motor[B])
+S = Single (Trailer[S])
+T = Triplet (Motor[A] - Trailer[S] - Motor[B])
+
+6 Cars:
+(a) T - S - M
+(b) M - S - T
+
+8 Cars:
+(a) T - S - M - M
+(b) T - M - S - M
+(c) M - T - S - M
+(d) M - S - T - M
+(e) M - S - M - T
+(f) M - M - S - T
+
+9 Cars:
+(3-1a) T - S - M - S - M
+(3-1b) M - S - T - S - M
+(3-1c) M - S - M - S - T
+
+(3-2a) T - T - S - M
+(3-2b) T - S - T - M
+(3-2c) T - S - M - T
+(3-2d) T - M - S - T
+(3-2e) M - T - S - T
+(3-2f) M - S - T - T
+
+10 Cars:
+(a) T - S - M - M - M
+(b) T - M - S - M - M
+(c) T - M - M - S - M
+(d) M - T - S - M - M
+(e) M - T - M - S - M
+(f) M - S - T - M - M
+(g) M - M - T - S - M
+(h) M - S - M - T - M
+(i) M - M - S - T - M
+(j) M - S - M - M - T
+(k) M - M - S - M - T
+(l) M - M - M - S - T
+
+11 Cars:
+(3-1a) T - S - M - S - M - M
+(3-1b) T - S - M - M - S - M
+(3-1c) T - M - S - M - S - M
+(3-1d) M - T - S - M - S - M
+(3-1e) M - S - T - M - S - M
+(3-1f) M - S - T - S - M - M
+(3-1g) M - S - M - T - S - M
+(3-1h) M - M - S - T - S - M
+(3-1i) M - S - M - S - T - M
+(3-1j) M - S - M - S - M - T
+(3-1k) M - S - M - M - S - T
+(3-1l) M - M - S - M - S - T
+
+(3-2a) T - T - S - M - M
+(3-2b) T - T - M - S - M
+(3-2c) T - S - T - M - M
+(3-2d) T - M - T - S - M
+(3-2e) T - M - S - T - M
+(3-2f) T - S - M - T - M
+(3-2g) T - S - M - M - T
+(3-2h) T - M - S - M - T
+(3-2i) T - M - M - S - T
+(3-2j) M - T - S - M - T
+(3-2k) M - T - M - S - T
+(3-2l) M - S - T - M - T
+(3-2m) M - M - T - S - T
+(3-2n) M - S - M - T - T
+(3-2o) M - M - S - T - T
+(3-2p) M - S - T - T - M
+(3-2q) M - T - S - T - M
+(3-2r) M - T - T - S - M
+
+12 Cars:
+(2-1a) T - S - M - M - M - M
+(2-1b) T - M - S - M - M - M
+(2-1c) T - M - M - S - M - M
+(2-1d) T - M - M - M - S - M
+(2-1e) M - T - S - M - M - M
+(2-1f) M - T - M - S - M - M
+(2-1g) M - T - M - M - S - M
+(2-1h) M - S - T - M - M - M
+(2-1i) M - M - T - S - M - M
+(2-1j) M - M - T - M - S - M
+(2-1k) M - S - M - T - M - M
+(2-1l) M - M - S - T - M - M
+(2-1m) M - M - M - T - S - M
+(2-1n) M - S - M - M - T - M
+(2-1o) M - M - S - M - T - M
+(2-1p) M - M - M - S - T - M
+(2-1q) M - S - M - M - M - T
+(2-1r) M - M - S - M - M - T
+(2-1s) M - M - M - S - M - T
+(2-1t) M - M - M - M - S - T
+
+(4-2a) T - S - M - S - M - S - M
+(4-2b) M - S - T - S - M - S - M
+(4-2c) M - S - M - S - T - S - M
+(4-2d) M - S - M - S - M - S - T
+
+(4-3a) T - T - S - M - S - M
+(4-3b) T - S - T - M - S - M
+(4-3c) T - S - T - S - M - M
+(4-3d) T - S - M - T - S - M
+(4-3e) T - M - S - T - S - M
+(4-3f) T - S - M - S - T - M
+(4-3g) T - S - M - S - M - T
+(4-3h) T - M - S - M - S - T
+(4-3i) M - T - S - M - S - T
+(4-3j) M - S - T - M - S - T
+(4-3k) M - S - T - S - M - T
+(4-3l) M - S - M - T - S - T
+(4-3m) M - M - S - T - S - T
+(4-3n) M - S - M - S - T - T
+(4-3o) M - S - T - T - S - M
+(4-3p) M - T - S - T - S - M
+(4-3q) M - S - T - S - T - M
+
+(4-4a) T - T - T - S - M
+(4-4b) T - T - S - T - M
+(4-4c) T - S - T - T - M
+(4-4d) T - T - S - M - T
+(4-4e) T - T - M - S - T
+(4-4f) T - S - T - M - T
+(4-4g) T - M - T - S - T
+(4-4h) T - S - M - T - T
+(4-4i) T - M - S - T - T
+(4-4j) M - T - T - S - T
+(4-4k) M - T - S - T - T
+(4-4l) M - S - T - T - T

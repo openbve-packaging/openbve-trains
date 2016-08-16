@@ -1,0 +1,33 @@
+15 Trains
+
+Key:
+M = Married Pair (Motor[A] - Motor[B])
+S = Single (Trailer[S])
+
+5 Cars:
+(a) M - S - M
+
+7 Cars:
+(a) M - S - M - M
+(b) M - M - S - M
+
+8 Cars:
+(a) M - S - M - S - M
+
+9 Cars:
+(a) M - S - M - M - M
+(b) M - M - S - M - M
+(c) M - M - M - S - M
+
+10 Cars:
+(a) M - S - M - M - S - M
+(b) M - S - M - S - M - M
+(c) M - M - S - M - S - M
+
+11 Cars:
+(a) M - S - M - M - M - M
+(b) M - M - S - M - M - M
+(c) M - M - M - S - M - M
+(d) M - M - M - M - S - M
+
+(S3) M - S - M - S - M - S - M

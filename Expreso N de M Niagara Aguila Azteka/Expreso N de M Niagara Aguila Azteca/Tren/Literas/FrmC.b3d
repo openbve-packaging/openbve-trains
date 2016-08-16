@@ -1,0 +1,142 @@
+;BOGI BEAM, Gaug Per SCALEALL Last Line Below
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[MESHBUILDER]                      ;Beam_Cntr
+Cube +1.336,+0.122,+0.190
+Color 079,063,063
+Translate +0.000,+0.123,+0.000
+
+[MESHBUILDER]                      ;Bear_Cntr
+Cylinder 18,+0.170,+0.190,+0.080
+Color 045,045,045
+Translate +0.000,+0.285,+0.000
+Scale 1.598,1.000,1.000
+
+[MESHBUILDER]                      ;Bear_Left
+Cube +0.056,+0.059,+0.160
+Color 079,063,063
+Translate -1.000,+0.304,+0.000
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate -1.000,+0.343,-0.075
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate -1.000,+0.343,+0.075
+
+[MESHBUILDER]                      ;Bear_Rght
+Cube +0.056,+0.059,+0.160
+Color 079,063,063
+Translate +1.000,+0.304,+0.000
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate +1.000,+0.343,-0.075
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate +1.000,+0.343,+0.075
+
+[MESHBUILDER]                      ;Beam_EndA
+Vertex +1.575,+0.933,+2.010
+Vertex -1.575,+0.933,+2.010
+Vertex -1.575,-0.933,+2.010
+Vertex +1.575,-0.933,+2.010
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.575,+0.933,+1.990
+Vertex -1.575,+0.933,+1.990
+Vertex -1.575,-0.933,+1.990
+Vertex +1.575,-0.933,+1.990
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.575,+0.933,+1.970
+Vertex -1.575,+0.933,+1.970
+Vertex -1.575,-0.933,+1.970
+Vertex +1.575,-0.933,+1.970
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.575,+0.933,+1.950
+Vertex -1.575,+0.933,+1.950
+Vertex -1.575,-0.933,+1.950
+Vertex +1.575,-0.933,+1.950
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+
+[MESHBUILDER]                      ;Beam_EndB
+Vertex +1.575,+0.933,-2.010
+Vertex -1.575,+0.933,-2.010
+Vertex -1.575,-0.933,-2.010
+Vertex +1.575,-0.933,-2.010
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.575,+0.933,-1.990
+Vertex -1.575,+0.933,-1.990
+Vertex -1.575,-0.933,-1.990
+Vertex +1.575,-0.933,-1.990
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.575,+0.933,-1.970
+Vertex -1.575,+0.933,-1.970
+Vertex -1.575,-0.933,-1.970
+Vertex +1.575,-0.933,-1.970
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.575,+0.933,-1.950
+Vertex -1.575,+0.933,-1.950
+Vertex -1.575,-0.933,-1.950
+Vertex +1.575,-0.933,-1.950
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load FrmC.GIF
+Transparent 000,255,000
+
+SCALEALL 0.718,1.000,1.000         ;DimX=+0.5*Gaug,DimY=+1.0,DimZ=+1.0

@@ -1,0 +1,380 @@
+;Asiento para vagon de Primera Clase
+;Copyright Alejandro Melo
+;celindamelo@yahoo.com.mx
+;Huauchinango Mexico
+
+;Asiento
+
+[MeshBuilder]
+Vertex -0.5, 0.4, -0.1
+Vertex -0.5, 0.4,  0.45
+Vertex  0,   0.4,  0.45
+Vertex  0,   0.4, -0.1
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+[MeshBuilder]
+Vertex -0.5, 0.5, -0.1
+Vertex -0.5, 0.5,  0.45
+Vertex  0,   0.5,  0.45
+Vertex  0,   0.5, -0.1
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+[MeshBuilder]
+Vertex -0.6, 0.4,  0.5
+Vertex -0.6, 0.5, 0.5
+Vertex -0, 0.5, 0.5
+Vertex -0, 0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate 0, 0, -0.5
+[MeshBuilder]
+Vertex -0.6, 0.4,  0.5
+Vertex -0.6, 0.5, 0.5
+Vertex -0, 0.5, 0.5
+Vertex -0, 0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate -0.5, 0, -0.5
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.45
+Vertex -0.5, 0.5,  0.45
+Vertex  0,   0.5,  0.45
+Vertex  0,   0.4,  0.45
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate 0, 0, 0.55
+
+; Respaldo
+
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.45
+Vertex -0.5, 1.15,  0.45
+Vertex  0,   1.15,  0.45
+Vertex  0,   0.4,  0.45
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.5
+Vertex -0.5, 1.15, 0.5
+Vertex -0.4,   1.15, 0.5
+Vertex -0.4,   0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate 0, 0, -0.95
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.5
+Vertex -0.5, 1.15, 0.5
+Vertex -0.4,   1.15, 0.5
+Vertex -0.4,   0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate -0.5, 0, -0.95
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.55
+Vertex -0.5, 1.15,  0.55
+Vertex  0,   1.15,  0.55
+Vertex  0,   0.4,  0.55
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+[MeshBuilder]
+Vertex -0.5, 0.4, -0.1
+Vertex -0.5, 0.4,  0
+Vertex  0,   0.4,  0
+Vertex  0,   0.4, -0.1
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate 0, 0.75, -0.55
+
+;Patas
+[MeshBuilder]
+Cylinder 8, 0.04, 0.04, 0.39
+Translate -0.4, 0.2, 0
+Color 155, 155, 155
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 8, 0.04, 0.04, 0.39
+Translate -0.4, 0.2, 0.45
+Color 155, 155, 155
+Rotate 0,1,0,180
+
+;Coderas
+
+[Meshbuilder]
+Cube 0.015,0.03,0.25
+Rotate 0,0,0
+Color 100,100,100
+Translate 0.5, 0.75, -0.25
+
+;Asiento 2
+
+[MeshBuilder]
+Vertex -0.5, 0.4, -0.1
+Vertex -0.5, 0.4,  0.45
+Vertex  0,   0.4,  0.45
+Vertex  0,   0.4, -0.1
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.5, 0.5, -0.1
+Vertex -0.5, 0.5,  0.45
+Vertex  0,   0.5,  0.45
+Vertex  0,   0.5, -0.1
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.6, 0.4,  0.5
+Vertex -0.6, 0.5, 0.5
+Vertex -0, 0.5, 0.5
+Vertex -0, 0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate 0, 0, -0.5
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.6, 0.4,  0.5
+Vertex -0.6, 0.5, 0.5
+Vertex -0, 0.5, 0.5
+Vertex -0, 0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate -0.5, 0, -0.5
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.45
+Vertex -0.5, 0.5,  0.45
+Vertex  0,   0.5,  0.45
+Vertex  0,   0.4,  0.45
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate 0, 0, 0.55
+Translate -0.5,0, 0
+
+; Respaldo
+
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.45
+Vertex -0.5, 1.15,  0.45
+Vertex  0,   1.15,  0.45
+Vertex  0,   0.4,  0.45
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.5
+Vertex -0.5, 1.15, 0.5
+Vertex -0.4,   1.15, 0.5
+Vertex -0.4,   0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate 0, 0, -0.95
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.5
+Vertex -0.5, 1.15, 0.5
+Vertex -0.4,   1.15, 0.5
+Vertex -0.4,   0.4,  0.5
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,90
+Translate -0.5, 0, -0.95
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.5, 0.4,  0.55
+Vertex -0.5, 1.15,  0.55
+Vertex  0,   1.15,  0.55
+Vertex  0,   0.4,  0.55
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate -0.5,0, 0
+[MeshBuilder]
+Vertex -0.5, 0.4, -0.1
+Vertex -0.5, 0.4,  0
+Vertex  0,   0.4,  0
+Vertex  0,   0.4, -0.1
+Face 0, 1, 2, 3
+Face 0, 3, 2, 1
+[Texture]
+Load silla.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,180
+Translate 0, 0.75, -0.55
+Translate -0.5,0, 0
+
+;Patas
+[MeshBuilder]
+Cylinder 8, 0.04, 0.04, 0.39
+Translate -0.1, 0.2, 0
+Color 155, 155, 155
+Rotate 0,1,0,180
+Translate -0.5,0, 0
+[MeshBuilder]
+Cylinder 8, 0.04, 0.04, 0.39
+Translate -0.1, 0.2, 0.45
+Color 155, 155, 155
+Rotate 0,1,0,180
+Translate -0.5,0, 0
+
+;Coderas
+[Meshbuilder]
+Cube 0.015,0.03,0.25
+Rotate 0,0,0
+Color 100,100,100
+Translate 0, 0.75, -0.25
+Translate -0.5,0, 0

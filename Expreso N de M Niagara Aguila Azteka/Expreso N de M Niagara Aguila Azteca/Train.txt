@@ -1,0 +1,29 @@
+Este tren fue uno de los mas celebres de los Ferrocarriles Nacionales de Mexico, el llamado "Aguila Azteca". Unia a la ciudad de Mexico con la cd de Laredo EEUU donde conectaba con el tambien famoso "Texas Eagle" hasta el año 2000 en que fue eliminado el servicio de pasajeros en los Ferrocarriles Mexicanos.
+
+El modelo para OpenBVE incluye Suspension animada en cada coche, Bielas animadas y suspension animada en la locomotora y tender, Penachos de humo, Sonidos reales, inscripciones en alta resolucion e interiores detallados segun cada coche
+
+Cuenta con:
+
+1 Locomotora 4 - 8 - 4 "NIAGARA"
+1 Tender
+1 Furgon de equipajes
+2 Coches de Primera Clase
+4 Coches Cama
+1 Coche Pullman
+1 Coche Pullman con balconcillo
+1 Coche Comedor
+1 Coche Salon
+
+Creditos:
+
+Alejandro Melo: Tren, archivos csv, b3d, aninated, Texturas y coches de viajeros
+
+Robert Raymond: Panel y sonidos
+
+Mexico DF
+Orlando, Florida
+
+Copyright:
+
+OpenBVE Mexico
+Museo de Transportes Electricos del DF
